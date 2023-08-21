@@ -1,0 +1,248 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T07:01:10.036Z"}
+error: Could not connect to the database. Invalid connection string {"name":"MongoParseError","stack":"MongoParseError: Invalid connection string\n    at parseConnectionString (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/core/uri_parser.js:585:21)\n    at connect (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/operations/connect.js:283:3)\n    at cb (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/mongo_client.js:284:5)\n    at maybePromise (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/utils.js:692:3)\n    at MongoClient.connect (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/mongo_client.js:280:10)\n    at Promise (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/connection.js:836:12)\n    at new Promise (<anonymous>)\n    at NativeConnection.Connection.openUri (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/connection.js:832:19)\n    at _mongoose._promiseOrCallback.cb (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/index.js:351:10)\n    at Promise (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5)\n    at new Promise (<anonymous>)\n    at promiseOrCallback (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/index.js:1149:10)\n    at Mongoose.connect (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/index.js:350:20)\n    at _callee$ (/home/admin1/NodeProject/FundooNotes/src/config/database.js:12:20)\n    at tryCatch (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)","timestamp":"2023-08-21T07:01:10.044Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T07:02:40.906Z"}
+error: Could not connect to the database. Invalid connection string {"name":"MongoParseError","stack":"MongoParseError: Invalid connection string\n    at parseConnectionString (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/core/uri_parser.js:585:21)\n    at connect (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/operations/connect.js:283:3)\n    at cb (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/mongo_client.js:284:5)\n    at maybePromise (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/utils.js:692:3)\n    at MongoClient.connect (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/mongo_client.js:280:10)\n    at Promise (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/connection.js:836:12)\n    at new Promise (<anonymous>)\n    at NativeConnection.Connection.openUri (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/connection.js:832:19)\n    at _mongoose._promiseOrCallback.cb (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/index.js:351:10)\n    at Promise (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5)\n    at new Promise (<anonymous>)\n    at promiseOrCallback (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/index.js:1149:10)\n    at Mongoose.connect (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/index.js:350:20)\n    at _callee$ (/home/admin1/NodeProject/FundooNotes/src/config/database.js:12:20)\n    at tryCatch (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)","timestamp":"2023-08-21T07:02:40.915Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T07:04:00.394Z"}
+error: Could not connect to the database. Invalid connection string {"name":"MongoParseError","stack":"MongoParseError: Invalid connection string\n    at parseConnectionString (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/core/uri_parser.js:585:21)\n    at connect (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/operations/connect.js:283:3)\n    at cb (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/mongo_client.js:284:5)\n    at maybePromise (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/utils.js:692:3)\n    at MongoClient.connect (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/mongo_client.js:280:10)\n    at Promise (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/connection.js:836:12)\n    at new Promise (<anonymous>)\n    at NativeConnection.Connection.openUri (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/connection.js:832:19)\n    at _mongoose._promiseOrCallback.cb (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/index.js:351:10)\n    at Promise (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5)\n    at new Promise (<anonymous>)\n    at promiseOrCallback (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/index.js:1149:10)\n    at Mongoose.connect (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/index.js:350:20)\n    at _callee$ (/home/admin1/NodeProject/FundooNotes/src/config/database.js:12:20)\n    at tryCatch (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)","timestamp":"2023-08-21T07:04:00.402Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T07:08:22.380Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T07:08:22.416Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T07:23:33.634Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T07:23:33.673Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T07:25:05.983Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T07:25:06.021Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T07:25:11.902Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T07:25:11.940Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T07:27:13.432Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T07:27:13.471Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T07:30:37.383Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T07:30:37.421Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T07:32:03.371Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T07:32:03.408Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T07:32:46.557Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T07:32:46.599Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (/home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/types/json.js:160:10)
+    at parse (/home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/types/json.js:83:15)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:188:21)
+    at invokeCallback (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:231:16)
+    at done (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (events.js:203:15)
+    at IncomingMessage.EventEmitter.emit (domain.js:448:20)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-08-21T07:34:00.467Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (/home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/types/json.js:160:10)
+    at parse (/home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/types/json.js:83:15)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:188:21)
+    at invokeCallback (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:231:16)
+    at done (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (events.js:203:15)
+    at IncomingMessage.EventEmitter.emit (domain.js:448:20)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-08-21T07:34:18.825Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T07:40:19.727Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T07:40:19.767Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T07:44:21.741Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T07:44:21.779Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T07:54:00.028Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T07:54:00.066Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T07:57:10.279Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T07:57:10.315Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T07:58:18.043Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T07:58:18.080Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T07:58:24.404Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T07:58:24.440Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T07:59:37.347Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T07:59:37.385Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T08:00:05.475Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T08:00:05.512Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T08:06:35.374Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T08:06:35.407Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T08:07:29.901Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T08:07:29.938Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T08:09:27.932Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T08:09:27.967Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T08:27:49.705Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T08:27:49.743Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T08:32:16.476Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T08:32:16.521Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T09:06:56.172Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T09:06:56.208Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T09:07:36.428Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T09:07:36.465Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T09:11:05.020Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T09:11:05.058Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T09:11:47.287Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T09:11:47.328Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T09:13:33.959Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T09:13:33.996Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T09:14:10.918Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T09:14:10.964Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T09:14:19.089Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T09:14:19.153Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T09:14:45.582Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T09:14:45.634Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T09:19:21.236Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T09:19:21.279Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T09:19:29.379Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T09:19:29.415Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T09:28:49.078Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T09:28:49.113Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T09:29:21.928Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T09:29:21.965Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.getAllUsers is not a function
+    at _callee$ (/home/admin1/NodeProject/FundooNotes/src/controllers/user.controller.js:12:36)
+    at tryCatch (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:128:22)
+    at Generator.next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at getAllUsers (/home/admin1/NodeProject/FundooNotes/src/controllers/user.controller.js:10:25)
+    at Layer.handle [as handle_request] (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/layer.js:95:5)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:346:12) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-08-21T09:29:25.585Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T09:30:14.145Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T09:30:14.186Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T09:33:10.880Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T09:33:10.931Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T09:38:18.386Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T09:38:18.424Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T09:40:48.116Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T09:40:48.156Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee$ (/home/admin1/NodeProject/FundooNotes/src/services/user.service.js:17:10)
+    at tryCatch (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:128:22)
+    at Generator.next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at Object.newUser (/home/admin1/NodeProject/FundooNotes/src/services/user.service.js:6:21)
+    at _callee2$ (/home/admin1/NodeProject/FundooNotes/src/controllers/user.controller.js:31:36)
+    at tryCatch (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:128:22)
+    at Generator.next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-08-21T09:40:55.849Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T09:42:19.212Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T09:42:19.251Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of undefined
+    at _callee2$ (/home/admin1/NodeProject/FundooNotes/src/controllers/user.controller.js:34:18)
+    at tryCatch (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:128:22)
+    at Generator.next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-08-21T09:42:22.015Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T09:43:44.578Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T09:43:44.616Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of undefined
+    at _callee2$ (/home/admin1/NodeProject/FundooNotes/src/controllers/user.controller.js:34:18)
+    at tryCatch (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:128:22)
+    at Generator.next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-08-21T09:43:48.801Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T09:45:51.297Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T09:45:51.337Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T09:48:05.071Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T09:48:05.137Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T09:49:03.482Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T09:49:03.552Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T09:57:00.175Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T09:57:00.215Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T09:58:13.215Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T09:58:13.263Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T10:02:11.523Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T10:02:11.559Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T10:03:47.025Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T10:03:47.064Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T10:04:35.277Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T10:04:35.318Z"}
+error: 
+    status - 500 
+    message - ReferenceError: res is not defined
+    at _callee$ (/home/admin1/NodeProject/FundooNotes/src/services/user.service.js:10:5)
+    at tryCatch (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:128:22)
+    at Generator.next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-08-21T10:04:36.090Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T10:05:19.265Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T10:05:19.303Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T10:08:47.486Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T10:08:47.536Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T10:12:04.732Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T10:12:04.769Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T10:12:41.691Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T10:12:41.730Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T10:17:10.742Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T10:17:10.779Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T10:18:07.689Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T10:18:07.729Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T10:19:12.167Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T10:19:12.202Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T10:19:20.246Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T10:19:20.283Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T10:20:57.484Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T10:20:57.532Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T10:22:04.576Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T10:22:04.613Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-21T10:23:39.841Z"}
+info: Connected to the database. {"timestamp":"2023-08-21T10:23:39.882Z"}

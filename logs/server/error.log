@@ -1,0 +1,129 @@
+error: Could not connect to the database. Invalid connection string {"name":"MongoParseError","stack":"MongoParseError: Invalid connection string\n    at parseConnectionString (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/core/uri_parser.js:585:21)\n    at connect (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/operations/connect.js:283:3)\n    at cb (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/mongo_client.js:284:5)\n    at maybePromise (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/utils.js:692:3)\n    at MongoClient.connect (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/mongo_client.js:280:10)\n    at Promise (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/connection.js:836:12)\n    at new Promise (<anonymous>)\n    at NativeConnection.Connection.openUri (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/connection.js:832:19)\n    at _mongoose._promiseOrCallback.cb (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/index.js:351:10)\n    at Promise (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5)\n    at new Promise (<anonymous>)\n    at promiseOrCallback (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/index.js:1149:10)\n    at Mongoose.connect (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/index.js:350:20)\n    at _callee$ (/home/admin1/NodeProject/FundooNotes/src/config/database.js:12:20)\n    at tryCatch (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)","timestamp":"2023-08-21T07:01:10.044Z"}
+error: Could not connect to the database. Invalid connection string {"name":"MongoParseError","stack":"MongoParseError: Invalid connection string\n    at parseConnectionString (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/core/uri_parser.js:585:21)\n    at connect (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/operations/connect.js:283:3)\n    at cb (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/mongo_client.js:284:5)\n    at maybePromise (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/utils.js:692:3)\n    at MongoClient.connect (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/mongo_client.js:280:10)\n    at Promise (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/connection.js:836:12)\n    at new Promise (<anonymous>)\n    at NativeConnection.Connection.openUri (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/connection.js:832:19)\n    at _mongoose._promiseOrCallback.cb (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/index.js:351:10)\n    at Promise (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5)\n    at new Promise (<anonymous>)\n    at promiseOrCallback (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/index.js:1149:10)\n    at Mongoose.connect (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/index.js:350:20)\n    at _callee$ (/home/admin1/NodeProject/FundooNotes/src/config/database.js:12:20)\n    at tryCatch (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)","timestamp":"2023-08-21T07:02:40.915Z"}
+error: Could not connect to the database. Invalid connection string {"name":"MongoParseError","stack":"MongoParseError: Invalid connection string\n    at parseConnectionString (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/core/uri_parser.js:585:21)\n    at connect (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/operations/connect.js:283:3)\n    at cb (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/mongo_client.js:284:5)\n    at maybePromise (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/utils.js:692:3)\n    at MongoClient.connect (/home/admin1/NodeProject/FundooNotes/node_modules/mongodb/lib/mongo_client.js:280:10)\n    at Promise (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/connection.js:836:12)\n    at new Promise (<anonymous>)\n    at NativeConnection.Connection.openUri (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/connection.js:832:19)\n    at _mongoose._promiseOrCallback.cb (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/index.js:351:10)\n    at Promise (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5)\n    at new Promise (<anonymous>)\n    at promiseOrCallback (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/index.js:1149:10)\n    at Mongoose.connect (/home/admin1/NodeProject/FundooNotes/node_modules/mongoose/lib/index.js:350:20)\n    at _callee$ (/home/admin1/NodeProject/FundooNotes/src/config/database.js:12:20)\n    at tryCatch (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)","timestamp":"2023-08-21T07:04:00.402Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (/home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/types/json.js:160:10)
+    at parse (/home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/types/json.js:83:15)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:188:21)
+    at invokeCallback (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:231:16)
+    at done (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (events.js:203:15)
+    at IncomingMessage.EventEmitter.emit (domain.js:448:20)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-08-21T07:34:00.467Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (/home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/types/json.js:160:10)
+    at parse (/home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/types/json.js:83:15)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:188:21)
+    at invokeCallback (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:231:16)
+    at done (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (events.js:203:15)
+    at IncomingMessage.EventEmitter.emit (domain.js:448:20)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-08-21T07:34:18.825Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.getAllUsers is not a function
+    at _callee$ (/home/admin1/NodeProject/FundooNotes/src/controllers/user.controller.js:12:36)
+    at tryCatch (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:128:22)
+    at Generator.next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at getAllUsers (/home/admin1/NodeProject/FundooNotes/src/controllers/user.controller.js:10:25)
+    at Layer.handle [as handle_request] (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/layer.js:95:5)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:346:12) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-08-21T09:29:25.585Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee$ (/home/admin1/NodeProject/FundooNotes/src/services/user.service.js:17:10)
+    at tryCatch (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:128:22)
+    at Generator.next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at Object.newUser (/home/admin1/NodeProject/FundooNotes/src/services/user.service.js:6:21)
+    at _callee2$ (/home/admin1/NodeProject/FundooNotes/src/controllers/user.controller.js:31:36)
+    at tryCatch (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:128:22)
+    at Generator.next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-08-21T09:40:55.849Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of undefined
+    at _callee2$ (/home/admin1/NodeProject/FundooNotes/src/controllers/user.controller.js:34:18)
+    at tryCatch (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:128:22)
+    at Generator.next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-08-21T09:42:22.015Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of undefined
+    at _callee2$ (/home/admin1/NodeProject/FundooNotes/src/controllers/user.controller.js:34:18)
+    at tryCatch (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:128:22)
+    at Generator.next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-08-21T09:43:48.801Z"}
+error: 
+    status - 500 
+    message - ReferenceError: res is not defined
+    at _callee$ (/home/admin1/NodeProject/FundooNotes/src/services/user.service.js:10:5)
+    at tryCatch (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:128:22)
+    at Generator.next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-08-21T10:04:36.090Z"}
