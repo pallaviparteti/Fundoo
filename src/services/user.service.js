@@ -1,3 +1,4 @@
+import userModel from '../models/user.model';
 import User from '../models/user.model';
 import HttpStatus from 'http-status-codes';
 
@@ -23,3 +24,34 @@ export const newUser = async (body) => {
   }
   return data;
 };
+
+// login user
+export const login = async (body) =>{
+  var data;
+  const logedin = await User.findOne({Email:body.Email,Password:body.Password});
+  if(logedin){
+    data={
+      code:HttpStatus.OK,
+      data:logedin,
+      message:"user login successfully"
+    }
+   
+  }
+  else { 
+  data = {
+    code:HttpStatus.BAD_REQUEST,
+    data:'',
+    message:'invalid credentials'
+
+  }
+  
+}
+return data;
+}
+
+
+
+
+
+
+

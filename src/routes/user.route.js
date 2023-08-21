@@ -10,6 +10,8 @@ const router = express.Router();
 router.post('', userController.newUser);
 
 
+router.get('/login', userController.login);
+
 
 
 

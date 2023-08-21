@@ -22,3 +22,19 @@ export const newUser = async (req, res, next) => {
   }
 };
 
+
+export const login = async (req , res, next ) =>
+{
+  try{
+    const data = await UserService.login(req.body);
+    res.status(data.code).json({
+      code: data.code,
+      data :data.data,
+      message:data.message
+    });
+  }
+  catch(error){
+    next(error);
+  }
+}
+
