@@ -84,3 +84,15 @@ info: ::1 - - [21/Aug/2023:11:06:24 +0000] "GET /api/v1/users/login HTTP/1.1" 20
 
 info: ::1 - - [21/Aug/2023:11:06:44 +0000] "GET /api/v1/users/login HTTP/1.1" 400 49 "-" "PostmanRuntime/7.32.3"
 
+info: ::1 - - [21/Aug/2023:11:19:19 +0000] "GET /api/v1/users/login HTTP/1.1" 400 54 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [21/Aug/2023:11:27:45 +0000] "GET /api/v1/users/login HTTP/1.1" 400 54 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [21/Aug/2023:11:27:49 +0000] "GET /api/v1/users/login HTTP/1.1" 400 54 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [21/Aug/2023:11:56:31 +0000] "GET /api/v1/users/login HTTP/1.1" 400 54 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [21/Aug/2023:11:58:47 +0000] "POST /api/v1/users HTTP/1.1" 201 244 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [21/Aug/2023:11:59:14 +0000] "GET /api/v1/users/login HTTP/1.1" 200 242 "-" "PostmanRuntime/7.32.3"
+
