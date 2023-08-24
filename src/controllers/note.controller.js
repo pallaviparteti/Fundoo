@@ -34,4 +34,23 @@ export const getAllNotes = async (req, res, next) => {
     });
   }
 };
+
+// delete a notes
+export const deleteNote = async (req, res, next) => {
+  try {
+    await NoteService.deleteNote(req.params._id,req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: [],
+      message: 'Note deleted successfully'
+    });
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
+  }
+};
+
+
   

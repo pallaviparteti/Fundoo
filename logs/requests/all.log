@@ -38,3 +38,15 @@ info: ::1 - - [24/Aug/2023:10:20:05 +0000] "POST /api/v1/notes HTTP/1.1" 201 285
 
 info: ::1 - - [24/Aug/2023:10:20:53 +0000] "POST /api/v1/notes HTTP/1.1" 201 297 "-" "PostmanRuntime/7.32.3"
 
+info: ::1 - - [24/Aug/2023:10:50:29 +0000] "DELETE /api/v1/notes/64e72f055c82345de5be092d HTTP/1.1" 200 60 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [24/Aug/2023:10:51:33 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 297 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [24/Aug/2023:10:51:35 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 297 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [24/Aug/2023:10:51:36 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 297 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [24/Aug/2023:10:51:41 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 297 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [24/Aug/2023:10:56:41 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 297 "-" "PostmanRuntime/7.32.3"
+
