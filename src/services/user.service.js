@@ -1,39 +1,70 @@
 import User from '../models/user.model';
-
-//get all users
-export const getAllUsers = async () => {
-  const data = await User.find();
-  return data;
-};
+import HttpStatus from 'http-status-codes';
+const bcrypt = require('bcrypt');
+var jwt = require('jsonwebtoken');
 
 //create new user
 export const newUser = async (body) => {
-  const data = await User.create(body);
+  const password = body.password;
+  const saltRounds = 10;
+  
+  var data;
+  const isExist = await User.findOne({ email: body.email });
+  if (isExist) {
+    data = {
+      code: HttpStatus.BAD_REQUEST,
+      data: `${body.Email} Already Exist.`,
+      message: 'user already exist'
+    };
+  } else {
+    var hashedPassword = await bcrypt.hash(password, saltRounds);
+    const newUserObj = {
+      ...body,
+      password: hashedPassword
+    };
+  var res = await User.create(newUserObj);
+    data = {
+      code: HttpStatus.CREATED,
+      data: res,
+      message: 'user register successfully'
+    };
+  }
+
   return data;
 };
 
-//update single user
-export const updateUser = async (_id, body) => {
-  const data = await User.findByIdAndUpdate(
-    {
-      _id
-    },
-    body,
-    {
-      new: true
+// login user
+export const login = async (body) => {
+  var data;
+  const emailValidation = await User.findOne({
+    email: body.email
+  });
+  if (emailValidation) {
+    const passwordMatch = await bcrypt.compare(
+      body.password,
+      emailValidation.password
+    );
+    if (passwordMatch) {
+      const token = await jwt.sign({_id:emailValidation._id, email:emailValidation.email},process.env.SECRETE_KEY );
+     console.log("this is the generated token",token)
+      data = {
+        code: HttpStatus.OK,
+        data:  token,
+        message: 'user login successfully'
+      };
+    } else {
+      data = {
+        code: HttpStatus.OK,
+        data: '',
+        message: 'password mismatched'
+      };
     }
-  );
-  return data;
-};
-
-//delete single user
-export const deleteUser = async (id) => {
-  await User.findByIdAndDelete(id);
-  return '';
-};
-
-//get single user
-export const getUser = async (id) => {
-  const data = await User.findById(id);
+  } else {
+    data = {
+      code: HttpStatus.BAD_REQUEST,
+      data: '',
+      message: 'invalid credentials'
+    };
+  }
   return data;
 };
