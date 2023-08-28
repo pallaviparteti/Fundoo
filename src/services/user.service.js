@@ -1,6 +1,8 @@
 import User from '../models/user.model';
 import HttpStatus from 'http-status-codes';
+import sendMail from '../utils/user.util';
 const bcrypt = require('bcrypt');
+
 var jwt = require('jsonwebtoken');
 
 //create new user
@@ -29,9 +31,13 @@ export const newUser = async (body) => {
       message: 'user register successfully'
     };
   }
-
+ sendMail(body.email,'you have successfully register to our apllication');
   return data;
 };
+
+
+
+
 
 // login user
 export const login = async (body) => {
