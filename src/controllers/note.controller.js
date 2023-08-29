@@ -1,7 +1,7 @@
 import * as NoteService from '../services/note.service';
 import HttpStatus from 'http-status-codes';
 
-export const createNote = async (req, res, next) => {
+export const createNote = async (req, res) => {
   try {
     const data = await NoteService.createNote(req.body);
     res.status(HttpStatus.CREATED).json({
@@ -18,9 +18,8 @@ export const createNote = async (req, res, next) => {
 };
 
 //get all notes
-export const getAllNotes = async (req, res, next) => {
+export const getAllNotes = async (req, res) => {
   try {
-    console.log(getAllNotes(req.body));
     const data = await NoteService.getAllNotes(req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
@@ -36,7 +35,7 @@ export const getAllNotes = async (req, res, next) => {
 };
 
 // delete a notes
-export const deleteNote = async (req, res, next) => {
+export const deleteNote = async (req, res) => {
   try {
     await NoteService.deleteNote(req.params._id, req.body);
     res.status(HttpStatus.OK).json({
@@ -53,7 +52,7 @@ export const deleteNote = async (req, res, next) => {
 };
 
 // get note by id
-export const getNoteById = async (req, res, next) => {
+export const getNoteById = async (req, res) => {
   try {
     const data = await NoteService.getNoteById(req.params._id, req.body);
     res.status(HttpStatus.OK).json({
@@ -69,7 +68,7 @@ export const getNoteById = async (req, res, next) => {
   }
 };
 
-export const updateNoteById = async (req, res, next) => {
+export const updateNoteById = async (req, res) => {
   try {
     const data = await NoteService.updateNoteById(req.params._id, req.body);
     // console.log('---------------------', req.body);
@@ -86,7 +85,7 @@ export const updateNoteById = async (req, res, next) => {
   }
 };
 
-export const noteArchive = async (req, res, next) => {
+export const noteArchive = async (req, res) => {
   try {
     const data = await NoteService.noteArchive(req.params._id, req.body);
     res.status(HttpStatus.OK).json({
@@ -102,9 +101,9 @@ export const noteArchive = async (req, res, next) => {
   }
 };
 
-export const noteTrash = async (req, res, next) => {
+export const noteTrash = async (req, res) => {
   try {
-    const data = await NoteService.noteTrash (req.params._id, req.body);
+    const data = await NoteService.noteTrash(req.params._id, req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
