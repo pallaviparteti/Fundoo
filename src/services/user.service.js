@@ -95,5 +95,22 @@ export const forgetPassword = async (body) => {
 };
 
 
-
-
+export const resetPassword = async (body) => {
+  const saltRounds = 10;
+  const password = body.password;
+  var hashedPass = await bcrypt.hash(password, saltRounds);
+  body.password = hashedPass;
+  const dataValue = await User.findByIdAndUpdate({ _id: body._id }, body, {
+    new: true
+  });
+  var data = {
+    code:HttpStatus.OK,
+      data: dataValue,
+      message: 'password has been changed successfully'
+    }
+  if (!dataValue) {
+    throw new Error('Invalid user id. ');
+  } else {
+    return data;
+  }
+}

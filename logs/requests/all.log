@@ -288,3 +288,15 @@ info: ::1 - - [29/Aug/2023:09:42:59 +0000] "POST /api/v1/users/resetPassword HTT
 
 info: ::1 - - [29/Aug/2023:09:57:10 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.3"
 
+info: ::1 - - [29/Aug/2023:11:40:06 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [29/Aug/2023:11:42:25 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [29/Aug/2023:11:43:38 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 400 151 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [29/Aug/2023:11:46:37 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 400 60 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [29/Aug/2023:11:47:07 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 400 22 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [29/Aug/2023:11:53:07 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 400 73 "-" "PostmanRuntime/7.32.3"
+
