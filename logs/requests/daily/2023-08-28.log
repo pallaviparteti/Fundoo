@@ -32,3 +32,5 @@ info: ::1 - - [28/Aug/2023:09:30:49 +0000] "POST /api/v1/users HTTP/1.1" 201 341
 
 info: ::1 - - [28/Aug/2023:09:33:00 +0000] "POST /api/v1/users HTTP/1.1" 201 353 "-" "PostmanRuntime/7.32.3"
 
+info: ::1 - - [28/Aug/2023:12:19:55 +0000] "POST /api/v1/users HTTP/1.1" 400 77 "-" "PostmanRuntime/7.32.3"
+
