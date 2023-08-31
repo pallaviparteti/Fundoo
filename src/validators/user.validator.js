@@ -6,7 +6,12 @@ export const newUserValidator = (req, res, next) => {
     firstName: Joi.string().min(2).required(),
     lastName: Joi.string().min(2).required(),
     email: Joi.string().email({ minDomainSegments: 2, tlds: { allow: ['com', 'net'] }}).min(3).required(),
-    password: Joi.string().min(3).required(),
+    password: Joi.string()
+    .minOfSpecialCharacters(2)
+    .minOfLowercase(4)
+    .minOfUppercase(5)
+    .minOfNumeric(6)
+    .noWhiteSpaces().required(),
     city: Joi.string().min(3).optional()
   });
   const { error, value } = schema.validate(req.body);

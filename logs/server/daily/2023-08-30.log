@@ -44,3 +44,5 @@ error:
    {"timestamp":"2023-08-30T13:22:42.437Z"}
 info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-30T13:25:37.835Z"}
 info: Connected to the database. {"timestamp":"2023-08-30T13:25:37.879Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-30T13:29:11.777Z"}
+info: Connected to the database. {"timestamp":"2023-08-30T13:29:11.837Z"}
