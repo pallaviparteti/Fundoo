@@ -20,9 +20,9 @@ const sendMail = (email, message) => {
 
   transporter.sendMail(sendMailconfig, (error, info) => {
     if (error) {
-      console.log('Error sending email:', error);
+      return `Error sending email ${error}`;
     } else {
-      console.log('Email sent:', info.response);
+      return `Email sent ${info.response}`;
     }
   });
 };

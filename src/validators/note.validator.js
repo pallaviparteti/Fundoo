@@ -4,7 +4,7 @@ import HttpStatus from 'http-status-codes';
 export const newNoteValidator = (req, res, next) => {
   const schema = Joi.object({
     title: Joi.string().min(5).required(),
-    description: Joi.string().min(6).required(),
+    description: Joi.string().min(6).required()
   });
   const { error } = schema.validate(req.body);
   if (error) {
@@ -16,4 +16,3 @@ export const newNoteValidator = (req, res, next) => {
     next();
   }
 };
-

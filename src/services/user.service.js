@@ -81,8 +81,7 @@ export const forgetPassword = async (body) => {
       { _id: findEmail.id, email: findEmail.email },
       process.env.FORGET_PASSWORD_KEY
     );
-    console.log('token--------------->', token);
-    await sendMail(findEmail.email, token);
+    sendMail(findEmail.email, token);
     var data = {
       code: HttpStatus.OK,
       data: '',
@@ -94,7 +93,6 @@ export const forgetPassword = async (body) => {
   return data;
 };
 
-
 export const resetPassword = async (body) => {
   const saltRounds = 10;
   const password = body.password;
@@ -104,13 +102,13 @@ export const resetPassword = async (body) => {
     new: true
   });
   var data = {
-    code:HttpStatus.OK,
-      data: dataValue,
-      message: 'password has been changed successfully'
-    }
+    code: HttpStatus.OK,
+    data: dataValue,
+    message: 'password has been changed successfully'
+  };
   if (!dataValue) {
     throw new Error('Invalid user id. ');
   } else {
     return data;
   }
-}
+};
