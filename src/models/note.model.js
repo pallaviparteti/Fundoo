@@ -1,4 +1,3 @@
-import { boolean } from '@hapi/joi';
 import { Schema, model } from 'mongoose';
 
 const noteSchema = new Schema(
