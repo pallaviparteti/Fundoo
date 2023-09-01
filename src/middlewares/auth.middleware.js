@@ -11,6 +11,7 @@ import jwt from 'jsonwebtoken';
  */
 export const userAuth = async (req, res, next) => {
   try {
+    console.log(req.body);
     let bearerToken = req.header('Authorization');
     if (!bearerToken) throw new Error('Authorization token is required');
     //  {
@@ -22,6 +23,7 @@ export const userAuth = async (req, res, next) => {
     // console.log("brearerToken after spliting -----> ",bearerToken);
     const user = await jwt.verify(bearerToken, process.env.SECRETE_KEY);
     req.body._id = user._id;
+    console.log(req.body._id);
     // res.locals.user = user;
     // res.locals.token = bearerToken;
     next();

@@ -10,11 +10,6 @@ export const newUserValidator = (req, res, next) => {
       .min(3)
       .required(),
     password: Joi.string()
-      .minOfSpecialCharacters(2)
-      .minOfLowercase(4)
-      .minOfUppercase(5)
-      .minOfNumeric(6)
-      .noWhiteSpaces()
       .required(),
     city: Joi.string().min(3).optional()
   });

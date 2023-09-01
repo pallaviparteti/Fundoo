@@ -11,16 +11,15 @@ const router = express.Router();
 router.post('', newUserValidator, userController.newUser);
 
 //route to create the login api
-router.post('/login', userAuth, userController.login);
+router.post('/login', userController.login);
 
 //route to create the forget password
-router.post('/forgetPassword', userAuth, userController.forgetPassword);
+router.post('/forgetPassword', userController.forgetPassword);
 
 //route to create resetPassword
 router.post(
   '/resetPassword',
   userAuth,
-  newUserValidator,
   userController.resetPassword
 );
 export default router;
