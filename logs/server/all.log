@@ -1103,3 +1103,9 @@ info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T0
 info: Connected to the database. {"timestamp":"2023-09-05T08:52:46.784Z"}
 info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T09:00:59.882Z"}
 info: Connected to the database. {"timestamp":"2023-09-05T09:00:59.914Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T09:09:34.544Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T09:09:34.584Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T09:12:59.429Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T09:12:59.466Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T09:18:19.240Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T09:18:19.273Z"}
