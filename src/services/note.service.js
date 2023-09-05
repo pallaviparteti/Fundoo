@@ -25,8 +25,8 @@ export const deleteNote = async (_id,body) => {
   }else{
     await Note.deleteOne({ _id: {$eq:_id }});
   
+    return '';
   }
-  return '';
 };
 
 // Get note by id
