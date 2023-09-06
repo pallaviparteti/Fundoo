@@ -1,0 +1,68 @@
+{
+        "swagger": "2.0",
+        "info": {
+          "version": "V1",
+          "title": "Node jS Project",
+          "description": "FUNDOO NOTES, project contain all apis for the users to resister login and Note crud api"
+        },
+        "host": "localhost:3101",
+        "basePath": "/api-doc/v1/",
+        "tags": [
+          {
+            "name": "API's for User and Notes Using express CLI",
+            "description": "API for user registration"
+          }
+        ],
+        "schemes": ["http"],
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "paths": {
+          "/users": {
+            "post": {
+              "tags": ["User"],
+              "description": "Add new User to the Collection",
+              "parameters": [
+                {
+                  "name": "Register new User",
+                  "in": "body",
+                  "description": "User will register",
+                  "schema": {
+                    "$ref": "#/definitions/User"
+                  }
+                }
+              ],
+              "produces": ["application/json"],
+              "responses": {
+                "400": {
+                  "description": "user is already exist"
+                },
+                "201": {
+                  "description": "user registered successfully"
+                }
+              }
+            }
+          }
+        },
+        "definitions": {
+            "User": {
+              "type": "object",
+              "properties": {
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                },
+                "email": {
+                  "type": "string"
+                },
+                "password": {
+                  "type": "string"
+                },
+                "city":{
+                    "type" : "string"
+                }
+              }
+            }
+        }
+    }

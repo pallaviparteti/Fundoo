@@ -26,13 +26,13 @@ export const newUser = async (body) => {
       password: hashedPassword
     };
     var res = await User.create(newUserObj);
-   const {email,firstName,lastName,city}= res;
-   const userObject ={
-    firstName: firstName,
-    lastName: lastName,
-    city: city,
-    email:email
-   }
+    const { email, firstName, lastName, city } = res;
+    const userObject = {
+      firstName: firstName,
+      lastName: lastName,
+      city: city,
+      email: email
+    };
     data = {
       code: HttpStatus.CREATED,
       data: userObject,
@@ -86,7 +86,7 @@ export const forgetPassword = async (body) => {
   if (findEmail) {
     const token = jwt.sign(
       { _id: findEmail.id, email: findEmail.email },
-      process.env.FORGET_PASSWORD_KEY 
+      process.env.FORGET_PASSWORD_KEY
     );
     sendMail(findEmail.email, token);
     var data = {
@@ -101,7 +101,7 @@ export const forgetPassword = async (body) => {
 };
 
 export const resetPassword = async (body) => {
-  console.log("body------------->",body);
+  console.log('body------------->', body);
   const saltRounds = 10;
   const password = body.password;
   var hashedPass = await bcrypt.hash(password, saltRounds);
