@@ -660,3 +660,452 @@ Error: EIO: i/o error, write
     at addChunk (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)
     at readableAddChunk (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)
     at DerivedLogger.Readable.push (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10) {"date":"Wed Aug 30 2023 18:59:11 GMT+0530 (India Standard Time)","error":{"code":"EIO","errno":-5,"syscall":"write"},"exception":true,"os":{"loadavg":[1.16162109375,0.9150390625,1.21630859375],"uptime":30316},"process":{"argv":["node","/home/admin1/NodeProject/FundooNotes/src/index.js"],"cwd":"/home/admin1/NodeProject/FundooNotes","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"external":20067205,"heapTotal":86388736,"heapUsed":61464360,"rss":125665280},"pid":56861,"uid":1000,"version":"v10.19.0"},"stack":"Error: EIO: i/o error, write\n    at writeSync (fs.js:573:3)\n    at SyncWriteStream._write (internal/fs/sync_write_stream.js:22:3)\n    at doWrite (_stream_writable.js:415:12)\n    at writeOrBuffer (_stream_writable.js:399:5)\n    at SyncWriteStream.Writable.write (_stream_writable.js:299:11)\n    at Console.log (/home/admin1/NodeProject/FundooNotes/node_modules/winston/lib/winston/transports/console.js:79:23)\n    at Console._write (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/index.js:82:19)\n    at doWrite (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n    at writeOrBuffer (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n    at Console.Writable.write (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)\n    at DerivedLogger.ondata (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)\n    at DerivedLogger.emit (events.js:203:15)\n    at DerivedLogger.EventEmitter.emit (domain.js:448:20)\n    at addChunk (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)\n    at readableAddChunk (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)\n    at DerivedLogger.Readable.push (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10)","timestamp":"2023-08-30T13:29:11.792Z","trace":[{"column":3,"file":"fs.js","function":"writeSync","line":573,"method":null,"native":false},{"column":3,"file":"internal/fs/sync_write_stream.js","function":"SyncWriteStream._write","line":22,"method":"_write","native":false},{"column":12,"file":"_stream_writable.js","function":"doWrite","line":415,"method":null,"native":false},{"column":5,"file":"_stream_writable.js","function":"writeOrBuffer","line":399,"method":null,"native":false},{"column":11,"file":"_stream_writable.js","function":"SyncWriteStream.Writable.write","line":299,"method":"write","native":false},{"column":23,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston/lib/winston/transports/console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":15,"file":"events.js","function":"DerivedLogger.emit","line":203,"method":"emit","native":false},{"column":20,"file":"domain.js","function":"DerivedLogger.EventEmitter.emit","line":448,"method":"emit","native":false},{"column":12,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false},{"column":11,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"readableAddChunk","line":262,"method":null,"native":false},{"column":10,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.Readable.push","line":228,"method":"push","native":false}]}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-31T11:55:56.855Z"}
+info: Connected to the database. {"timestamp":"2023-08-31T11:55:56.928Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-31T11:57:21.301Z"}
+info: Connected to the database. {"timestamp":"2023-08-31T11:57:21.369Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 150
+    at JSON.parse (<anonymous>)
+    at parse (/home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/types/json.js:89:19)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:188:21)
+    at invokeCallback (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:231:16)
+    at done (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (events.js:203:15)
+    at IncomingMessage.EventEmitter.emit (domain.js:448:20)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-08-31T12:01:32.658Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).minOfSpecialCharacters is not a function
+    at newUserValidator (/home/admin1/NodeProject/FundooNotes/src/validators/user.validator.js:13:8)
+    at Layer.handle [as handle_request] (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/layer.js:95:5)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:328:13)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:175:3) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-08-31T12:01:41.697Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-31T12:04:16.397Z"}
+info: Connected to the database. {"timestamp":"2023-08-31T12:04:16.455Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-31T12:04:59.349Z"}
+info: Connected to the database. {"timestamp":"2023-08-31T12:04:59.425Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).minOfLowercase is not a function
+    at newUserValidator (/home/admin1/NodeProject/FundooNotes/src/validators/user.validator.js:13:8)
+    at Layer.handle [as handle_request] (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/layer.js:95:5)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:328:13)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:175:3) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-08-31T12:05:06.485Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-31T12:05:30.060Z"}
+info: Connected to the database. {"timestamp":"2023-08-31T12:05:30.134Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-31T12:17:54.255Z"}
+info: Connected to the database. {"timestamp":"2023-08-31T12:17:54.298Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-31T12:19:08.388Z"}
+info: Connected to the database. {"timestamp":"2023-08-31T12:19:08.433Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-31T12:20:01.240Z"}
+info: Connected to the database. {"timestamp":"2023-08-31T12:20:01.288Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-31T12:21:24.686Z"}
+info: Connected to the database. {"timestamp":"2023-08-31T12:21:24.820Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-31T12:22:39.001Z"}
+info: Connected to the database. {"timestamp":"2023-08-31T12:22:39.051Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-31T12:24:48.285Z"}
+info: Connected to the database. {"timestamp":"2023-08-31T12:24:48.333Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-31T12:28:40.787Z"}
+info: Connected to the database. {"timestamp":"2023-08-31T12:28:40.828Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-31T12:30:13.774Z"}
+info: Connected to the database. {"timestamp":"2023-08-31T12:30:13.831Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-31T12:31:05.386Z"}
+info: Connected to the database. {"timestamp":"2023-08-31T12:31:05.426Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-31T12:32:42.377Z"}
+info: Connected to the database. {"timestamp":"2023-08-31T12:32:42.415Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 76
+    at JSON.parse (<anonymous>)
+    at parse (/home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/types/json.js:89:19)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:188:21)
+    at invokeCallback (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:231:16)
+    at done (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (events.js:203:15)
+    at IncomingMessage.EventEmitter.emit (domain.js:448:20)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-08-31T12:47:33.853Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-31T13:31:20.921Z"}
+info: Connected to the database. {"timestamp":"2023-08-31T13:31:20.958Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-31T13:32:29.398Z"}
+info: Connected to the database. {"timestamp":"2023-08-31T13:32:29.434Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-31T13:34:20.282Z"}
+info: Connected to the database. {"timestamp":"2023-08-31T13:34:20.320Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-31T13:35:49.195Z"}
+info: Connected to the database. {"timestamp":"2023-08-31T13:35:49.231Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-31T13:36:15.150Z"}
+error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (fs.js:573:3)
+    at SyncWriteStream._write (internal/fs/sync_write_stream.js:22:3)
+    at doWrite (_stream_writable.js:415:12)
+    at writeOrBuffer (_stream_writable.js:399:5)
+    at SyncWriteStream.Writable.write (_stream_writable.js:299:11)
+    at Console.log (/home/admin1/NodeProject/FundooNotes/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/index.js:82:19)
+    at doWrite (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at Console.Writable.write (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.ondata (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (events.js:203:15)
+    at DerivedLogger.EventEmitter.emit (domain.js:448:20)
+    at addChunk (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10) {"date":"Thu Aug 31 2023 19:06:15 GMT+0530 (India Standard Time)","error":{"code":"EIO","errno":-5,"syscall":"write"},"exception":true,"os":{"loadavg":[0.83935546875,1.3623046875,0.87548828125],"uptime":517},"process":{"argv":["node","/home/admin1/NodeProject/FundooNotes/src/index.js"],"cwd":"/home/admin1/NodeProject/FundooNotes","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"external":20021648,"heapTotal":86388736,"heapUsed":62140432,"rss":125734912},"pid":4777,"uid":1000,"version":"v10.19.0"},"stack":"Error: EIO: i/o error, write\n    at writeSync (fs.js:573:3)\n    at SyncWriteStream._write (internal/fs/sync_write_stream.js:22:3)\n    at doWrite (_stream_writable.js:415:12)\n    at writeOrBuffer (_stream_writable.js:399:5)\n    at SyncWriteStream.Writable.write (_stream_writable.js:299:11)\n    at Console.log (/home/admin1/NodeProject/FundooNotes/node_modules/winston/lib/winston/transports/console.js:79:23)\n    at Console._write (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/index.js:82:19)\n    at doWrite (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n    at writeOrBuffer (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n    at Console.Writable.write (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)\n    at DerivedLogger.ondata (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)\n    at DerivedLogger.emit (events.js:203:15)\n    at DerivedLogger.EventEmitter.emit (domain.js:448:20)\n    at addChunk (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)\n    at readableAddChunk (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)\n    at DerivedLogger.Readable.push (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10)","timestamp":"2023-08-31T13:36:15.163Z","trace":[{"column":3,"file":"fs.js","function":"writeSync","line":573,"method":null,"native":false},{"column":3,"file":"internal/fs/sync_write_stream.js","function":"SyncWriteStream._write","line":22,"method":"_write","native":false},{"column":12,"file":"_stream_writable.js","function":"doWrite","line":415,"method":null,"native":false},{"column":5,"file":"_stream_writable.js","function":"writeOrBuffer","line":399,"method":null,"native":false},{"column":11,"file":"_stream_writable.js","function":"SyncWriteStream.Writable.write","line":299,"method":"write","native":false},{"column":23,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston/lib/winston/transports/console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":15,"file":"events.js","function":"DerivedLogger.emit","line":203,"method":"emit","native":false},{"column":20,"file":"domain.js","function":"DerivedLogger.EventEmitter.emit","line":448,"method":"emit","native":false},{"column":12,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false},{"column":11,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"readableAddChunk","line":262,"method":null,"native":false},{"column":10,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.Readable.push","line":228,"method":"push","native":false}]}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-09-01T06:21:09.551Z"}
+info: Connected to the database. {"timestamp":"2023-09-01T06:21:09.598Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-09-01T06:29:24.611Z"}
+info: Connected to the database. {"timestamp":"2023-09-01T06:29:24.651Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-09-01T06:49:06.962Z"}
+info: Connected to the database. {"timestamp":"2023-09-01T06:49:06.997Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-09-01T08:50:32.803Z"}
+info: Connected to the database. {"timestamp":"2023-09-01T08:50:32.842Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-09-01T09:16:42.139Z"}
+info: Connected to the database. {"timestamp":"2023-09-01T09:16:42.172Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-09-01T09:17:06.909Z"}
+info: Connected to the database. {"timestamp":"2023-09-01T09:17:06.952Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-09-01T09:17:25.661Z"}
+info: Connected to the database. {"timestamp":"2023-09-01T09:17:25.695Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-09-01T09:17:46.836Z"}
+info: Connected to the database. {"timestamp":"2023-09-01T09:17:46.873Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-09-01T09:51:30.695Z"}
+info: Connected to the database. {"timestamp":"2023-09-01T09:51:30.729Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::4010
+Error: listen EADDRINUSE: address already in use :::4010
+    at Server.setupListenHandle [as _listen2] (net.js:1280:14)
+    at listenInCluster (net.js:1328:12)
+    at Server.listen (net.js:1415:7)
+    at Function.listen (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/src/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module._compile (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:117:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.newLoader [as .js] (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:121:7)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.runMain (internal/modules/cjs/loader.js:831:12)
+    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts:222:12)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10) {"date":"Fri Sep 01 2023 15:21:43 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":"EADDRINUSE","port":4010,"syscall":"listen"},"exception":true,"os":{"loadavg":[1.42919921875,1.1259765625,1.0009765625],"uptime":13350},"process":{"argv":["node","/home/admin1/NodeProject/FundooNotes/src/index.js"],"cwd":"/home/admin1/NodeProject/FundooNotes","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"external":20104157,"heapTotal":85868544,"heapUsed":63193288,"rss":124157952},"pid":18260,"uid":1000,"version":"v10.19.0"},"stack":"Error: listen EADDRINUSE: address already in use :::4010\n    at Server.setupListenHandle [as _listen2] (net.js:1280:14)\n    at listenInCluster (net.js:1328:12)\n    at Server.listen (net.js:1415:7)\n    at Function.listen (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/src/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:778:30)\n    at Module._compile (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:117:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)\n    at Object.newLoader [as .js] (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:121:7)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:585:3)\n    at Function.runMain (internal/modules/cjs/loader.js:831:12)\n    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts:222:12)\n    at Module._compile (internal/modules/cjs/loader.js:778:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)","timestamp":"2023-09-01T09:51:43.693Z","trace":[{"column":14,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1280,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1328,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1415,"method":"listen","native":false},{"column":24,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"/home/admin1/NodeProject/FundooNotes/src/index.js","function":null,"line":37,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":778,"method":"_compile","native":false},{"column":24,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":789,"method":".js","native":false},{"column":7,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":653,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":593,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":585,"method":"_load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Function.runMain","line":831,"method":"runMain","native":false},{"column":12,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":778,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":789,"method":".js","native":false}]}
+info: Server started at http://localhost:4011/api/v1/ {"timestamp":"2023-09-01T09:52:30.831Z"}
+info: Connected to the database. {"timestamp":"2023-09-01T09:52:30.870Z"}
+info: Server started at http://localhost:4011/api/v1/ {"timestamp":"2023-09-01T11:06:58.655Z"}
+info: Connected to the database. {"timestamp":"2023-09-01T11:06:58.734Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 89
+    at JSON.parse (<anonymous>)
+    at parse (/home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/types/json.js:89:19)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:188:21)
+    at invokeCallback (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:231:16)
+    at done (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (events.js:203:15)
+    at IncomingMessage.EventEmitter.emit (domain.js:448:20)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-09-01T11:07:35.138Z"}
+info: Server started at http://localhost:4011/api/v1/ {"timestamp":"2023-09-01T11:14:09.368Z"}
+info: Connected to the database. {"timestamp":"2023-09-01T11:14:09.438Z"}
+info: Server started at http://localhost:4011/api/v1/ {"timestamp":"2023-09-01T12:44:14.052Z"}
+error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (fs.js:573:3)
+    at SyncWriteStream._write (internal/fs/sync_write_stream.js:22:3)
+    at doWrite (_stream_writable.js:415:12)
+    at writeOrBuffer (_stream_writable.js:399:5)
+    at SyncWriteStream.Writable.write (_stream_writable.js:299:11)
+    at Console.log (/home/admin1/NodeProject/FundooNotes/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/index.js:82:19)
+    at doWrite (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at Console.Writable.write (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.ondata (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (events.js:203:15)
+    at DerivedLogger.EventEmitter.emit (domain.js:448:20)
+    at addChunk (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10) {"date":"Fri Sep 01 2023 18:14:14 GMT+0530 (India Standard Time)","error":{"code":"EIO","errno":-5,"syscall":"write"},"exception":true,"os":{"loadavg":[1.486328125,1.17138671875,1.25],"uptime":23701},"process":{"argv":["node","/home/admin1/NodeProject/FundooNotes/src/index.js"],"cwd":"/home/admin1/NodeProject/FundooNotes","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"external":18899334,"heapTotal":83898368,"heapUsed":52521032,"rss":121634816},"pid":30613,"uid":1000,"version":"v10.19.0"},"stack":"Error: EIO: i/o error, write\n    at writeSync (fs.js:573:3)\n    at SyncWriteStream._write (internal/fs/sync_write_stream.js:22:3)\n    at doWrite (_stream_writable.js:415:12)\n    at writeOrBuffer (_stream_writable.js:399:5)\n    at SyncWriteStream.Writable.write (_stream_writable.js:299:11)\n    at Console.log (/home/admin1/NodeProject/FundooNotes/node_modules/winston/lib/winston/transports/console.js:79:23)\n    at Console._write (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/index.js:82:19)\n    at doWrite (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n    at writeOrBuffer (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n    at Console.Writable.write (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)\n    at DerivedLogger.ondata (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)\n    at DerivedLogger.emit (events.js:203:15)\n    at DerivedLogger.EventEmitter.emit (domain.js:448:20)\n    at addChunk (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)\n    at readableAddChunk (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)\n    at DerivedLogger.Readable.push (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10)","timestamp":"2023-09-01T12:44:14.158Z","trace":[{"column":3,"file":"fs.js","function":"writeSync","line":573,"method":null,"native":false},{"column":3,"file":"internal/fs/sync_write_stream.js","function":"SyncWriteStream._write","line":22,"method":"_write","native":false},{"column":12,"file":"_stream_writable.js","function":"doWrite","line":415,"method":null,"native":false},{"column":5,"file":"_stream_writable.js","function":"writeOrBuffer","line":399,"method":null,"native":false},{"column":11,"file":"_stream_writable.js","function":"SyncWriteStream.Writable.write","line":299,"method":"write","native":false},{"column":23,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston/lib/winston/transports/console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":15,"file":"events.js","function":"DerivedLogger.emit","line":203,"method":"emit","native":false},{"column":20,"file":"domain.js","function":"DerivedLogger.EventEmitter.emit","line":448,"method":"emit","native":false},{"column":12,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false},{"column":11,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"readableAddChunk","line":262,"method":null,"native":false},{"column":10,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.Readable.push","line":228,"method":"push","native":false}]}
+info: Server started at http://localhost:4011/api/v1/ {"timestamp":"2023-09-04T06:17:29.607Z"}
+info: Connected to the database. {"timestamp":"2023-09-04T06:17:29.643Z"}
+info: Server started at http://localhost:4011/api/v1/ {"timestamp":"2023-09-04T09:17:00.010Z"}
+info: Connected to the database. {"timestamp":"2023-09-04T09:17:00.046Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::4011
+Error: listen EADDRINUSE: address already in use :::4011
+    at Server.setupListenHandle [as _listen2] (net.js:1280:14)
+    at listenInCluster (net.js:1328:12)
+    at Server.listen (net.js:1415:7)
+    at Function.listen (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/src/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module._compile (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:117:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.newLoader [as .js] (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:121:7)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.runMain (internal/modules/cjs/loader.js:831:12)
+    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts:222:12)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10) {"date":"Mon Sep 04 2023 16:27:59 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":"EADDRINUSE","port":4011,"syscall":"listen"},"exception":true,"os":{"loadavg":[2.01611328125,1.2294921875,1.00439453125],"uptime":18772},"process":{"argv":["node","/home/admin1/NodeProject/FundooNotes/src/index.js"],"cwd":"/home/admin1/NodeProject/FundooNotes","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"external":18827650,"heapTotal":84946944,"heapUsed":52980392,"rss":122257408},"pid":19685,"uid":1000,"version":"v10.19.0"},"stack":"Error: listen EADDRINUSE: address already in use :::4011\n    at Server.setupListenHandle [as _listen2] (net.js:1280:14)\n    at listenInCluster (net.js:1328:12)\n    at Server.listen (net.js:1415:7)\n    at Function.listen (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/src/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:778:30)\n    at Module._compile (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:117:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)\n    at Object.newLoader [as .js] (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:121:7)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:585:3)\n    at Function.runMain (internal/modules/cjs/loader.js:831:12)\n    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts:222:12)\n    at Module._compile (internal/modules/cjs/loader.js:778:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)","timestamp":"2023-09-04T10:57:59.121Z","trace":[{"column":14,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1280,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1328,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1415,"method":"listen","native":false},{"column":24,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"/home/admin1/NodeProject/FundooNotes/src/index.js","function":null,"line":37,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":778,"method":"_compile","native":false},{"column":24,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":789,"method":".js","native":false},{"column":7,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":653,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":593,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":585,"method":"_load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Function.runMain","line":831,"method":"runMain","native":false},{"column":12,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":778,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":789,"method":".js","native":false}]}
+info: Server started at http://localhost:4012/api/v1/ {"timestamp":"2023-09-04T10:59:06.531Z"}
+info: Connected to the database. {"timestamp":"2023-09-04T10:59:06.570Z"}
+info: Server started at http://localhost:4012/api/v1/ {"timestamp":"2023-09-04T11:02:48.135Z"}
+info: Connected to the database. {"timestamp":"2023-09-04T11:02:48.186Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::4012
+Error: listen EADDRINUSE: address already in use :::4012
+    at Server.setupListenHandle [as _listen2] (net.js:1280:14)
+    at listenInCluster (net.js:1328:12)
+    at Server.listen (net.js:1415:7)
+    at Function.listen (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/src/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module._compile (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:117:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.newLoader [as .js] (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:121:7)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.runMain (internal/modules/cjs/loader.js:831:12)
+    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts:222:12)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10) {"date":"Mon Sep 04 2023 16:32:48 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":"EADDRINUSE","port":4012,"syscall":"listen"},"exception":true,"os":{"loadavg":[2.7568359375,1.541015625,1.15673828125],"uptime":19061},"process":{"argv":["node","/home/admin1/NodeProject/FundooNotes/src/index.js"],"cwd":"/home/admin1/NodeProject/FundooNotes","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"external":19755501,"heapTotal":88489984,"heapUsed":59397328,"rss":130215936},"pid":20152,"uid":1000,"version":"v10.19.0"},"stack":"Error: listen EADDRINUSE: address already in use :::4012\n    at Server.setupListenHandle [as _listen2] (net.js:1280:14)\n    at listenInCluster (net.js:1328:12)\n    at Server.listen (net.js:1415:7)\n    at Function.listen (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/src/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:778:30)\n    at Module._compile (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:117:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)\n    at Object.newLoader [as .js] (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:121:7)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:585:3)\n    at Function.runMain (internal/modules/cjs/loader.js:831:12)\n    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts:222:12)\n    at Module._compile (internal/modules/cjs/loader.js:778:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)","timestamp":"2023-09-04T11:02:48.372Z","trace":[{"column":14,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1280,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1328,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1415,"method":"listen","native":false},{"column":24,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"/home/admin1/NodeProject/FundooNotes/src/index.js","function":null,"line":37,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":778,"method":"_compile","native":false},{"column":24,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":789,"method":".js","native":false},{"column":7,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":653,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":593,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":585,"method":"_load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Function.runMain","line":831,"method":"runMain","native":false},{"column":12,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":778,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":789,"method":".js","native":false}]}
+info: Server started at http://localhost:4101/api/v1/ {"timestamp":"2023-09-04T11:17:25.916Z"}
+info: Connected to the database. {"timestamp":"2023-09-04T11:17:25.951Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::4101
+Error: listen EADDRINUSE: address already in use :::4101
+    at Server.setupListenHandle [as _listen2] (net.js:1280:14)
+    at listenInCluster (net.js:1328:12)
+    at Server.listen (net.js:1415:7)
+    at Function.listen (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/src/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module._compile (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:117:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.newLoader [as .js] (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:121:7)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.runMain (internal/modules/cjs/loader.js:831:12)
+    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts:222:12)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10) {"date":"Mon Sep 04 2023 16:50:02 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":"EADDRINUSE","port":4101,"syscall":"listen"},"exception":true,"os":{"loadavg":[1.39990234375,1.2275390625,1.16650390625],"uptime":20096},"process":{"argv":["node","/home/admin1/NodeProject/FundooNotes/src/index.js"],"cwd":"/home/admin1/NodeProject/FundooNotes","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"external":19804765,"heapTotal":88489984,"heapUsed":59797696,"rss":130355200},"pid":21117,"uid":1000,"version":"v10.19.0"},"stack":"Error: listen EADDRINUSE: address already in use :::4101\n    at Server.setupListenHandle [as _listen2] (net.js:1280:14)\n    at listenInCluster (net.js:1328:12)\n    at Server.listen (net.js:1415:7)\n    at Function.listen (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/src/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:778:30)\n    at Module._compile (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:117:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)\n    at Object.newLoader [as .js] (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:121:7)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:585:3)\n    at Function.runMain (internal/modules/cjs/loader.js:831:12)\n    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts:222:12)\n    at Module._compile (internal/modules/cjs/loader.js:778:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)","timestamp":"2023-09-04T11:20:02.942Z","trace":[{"column":14,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1280,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1328,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1415,"method":"listen","native":false},{"column":24,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"/home/admin1/NodeProject/FundooNotes/src/index.js","function":null,"line":37,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":778,"method":"_compile","native":false},{"column":24,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":789,"method":".js","native":false},{"column":7,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":653,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":593,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":585,"method":"_load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Function.runMain","line":831,"method":"runMain","native":false},{"column":12,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":778,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":789,"method":".js","native":false}]}
+info: Server started at http://localhost:4101/api/v1/ {"timestamp":"2023-09-04T11:20:02.932Z"}
+info: Connected to the database. {"timestamp":"2023-09-04T11:20:02.980Z"}
+info: Server started at http://localhost:4101/api/v1/ {"timestamp":"2023-09-04T11:22:10.646Z"}
+info: Connected to the database. {"timestamp":"2023-09-04T11:22:10.714Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::4101
+Error: listen EADDRINUSE: address already in use :::4101
+    at Server.setupListenHandle [as _listen2] (net.js:1280:14)
+    at listenInCluster (net.js:1328:12)
+    at Server.listen (net.js:1415:7)
+    at Function.listen (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/src/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module._compile (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:117:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.newLoader [as .js] (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:121:7)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.runMain (internal/modules/cjs/loader.js:831:12)
+    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts:222:12)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10) {"date":"Mon Sep 04 2023 16:52:10 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":"EADDRINUSE","port":4101,"syscall":"listen"},"exception":true,"os":{"loadavg":[2.0419921875,1.55810546875,1.29833984375],"uptime":20224},"process":{"argv":["node","/home/admin1/NodeProject/FundooNotes/src/index.js"],"cwd":"/home/admin1/NodeProject/FundooNotes","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"external":20037645,"heapTotal":86917120,"heapUsed":62208336,"rss":125292544},"pid":21358,"uid":1000,"version":"v10.19.0"},"stack":"Error: listen EADDRINUSE: address already in use :::4101\n    at Server.setupListenHandle [as _listen2] (net.js:1280:14)\n    at listenInCluster (net.js:1328:12)\n    at Server.listen (net.js:1415:7)\n    at Function.listen (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/src/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:778:30)\n    at Module._compile (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:117:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)\n    at Object.newLoader [as .js] (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:121:7)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:585:3)\n    at Function.runMain (internal/modules/cjs/loader.js:831:12)\n    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts:222:12)\n    at Module._compile (internal/modules/cjs/loader.js:778:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)","timestamp":"2023-09-04T11:22:10.780Z","trace":[{"column":14,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1280,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1328,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1415,"method":"listen","native":false},{"column":24,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"/home/admin1/NodeProject/FundooNotes/src/index.js","function":null,"line":37,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":778,"method":"_compile","native":false},{"column":24,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":789,"method":".js","native":false},{"column":7,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":653,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":593,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":585,"method":"_load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Function.runMain","line":831,"method":"runMain","native":false},{"column":12,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":778,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":789,"method":".js","native":false}]}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-04T11:23:15.195Z"}
+info: Connected to the database. {"timestamp":"2023-09-04T11:23:15.232Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-04T11:25:17.854Z"}
+info: Connected to the database. {"timestamp":"2023-09-04T11:25:17.897Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token { in JSON at position 7
+    at JSON.parse (<anonymous>)
+    at parse (/home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/types/json.js:89:19)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:188:21)
+    at invokeCallback (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:231:16)
+    at done (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (events.js:203:15)
+    at IncomingMessage.EventEmitter.emit (domain.js:448:20)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-09-04T11:26:30.702Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 163
+    at JSON.parse (<anonymous>)
+    at parse (/home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/types/json.js:89:19)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:188:21)
+    at invokeCallback (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:231:16)
+    at done (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (events.js:203:15)
+    at IncomingMessage.EventEmitter.emit (domain.js:448:20)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-09-04T11:26:40.957Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-04T11:27:13.461Z"}
+info: Connected to the database. {"timestamp":"2023-09-04T11:27:13.510Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-04T11:30:53.586Z"}
+info: Connected to the database. {"timestamp":"2023-09-04T11:30:53.629Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-04T12:30:22.041Z"}
+error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:884:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:25:3)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (/home/admin1/NodeProject/FundooNotes/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/index.js:82:19)
+    at doWrite (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at Console.Writable.write (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.ondata (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:532:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10) {"date":"Mon Sep 04 2023 18:00:22 GMT+0530 (India Standard Time)","error":{"code":"EIO","errno":-5,"syscall":"write"},"exception":true,"os":{"loadavg":[5.82,3.27,2.89],"uptime":24315.33},"process":{"argv":["node","/home/admin1/NodeProject/FundooNotes/src/index.js"],"cwd":"/home/admin1/NodeProject/FundooNotes","execPath":"/usr/local/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19021930,"external":26228252,"heapTotal":84398080,"heapUsed":51872584,"rss":137191424},"pid":30539,"uid":1000,"version":"v16.14.0"},"stack":"Error: EIO: i/o error, write\n    at writeSync (node:fs:884:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:25:3)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:334:10)\n    at Console.log (/home/admin1/NodeProject/FundooNotes/node_modules/winston/lib/winston/transports/console.js:79:23)\n    at Console._write (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/index.js:82:19)\n    at doWrite (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n    at writeOrBuffer (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n    at Console.Writable.write (/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)\n    at DerivedLogger.ondata (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)\n    at DerivedLogger.emit (node:events:532:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)\n    at readableAddChunk (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)\n    at DerivedLogger.Readable.push (/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10)","timestamp":"2023-09-04T12:30:22.064Z","trace":[{"column":3,"file":"node:fs","function":"writeSync","line":884,"method":null,"native":false},{"column":3,"file":"node:internal/fs/sync_write_stream","function":"SyncWriteStream._write","line":25,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"SyncWriteStream.Writable.write","line":334,"method":"write","native":false},{"column":23,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston/lib/winston/transports/console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":532,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false},{"column":11,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"readableAddChunk","line":262,"method":null,"native":false},{"column":10,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.Readable.push","line":228,"method":"push","native":false}]}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T04:54:27.178Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T04:54:27.209Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T05:07:24.703Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T05:07:24.770Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T05:08:04.549Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T05:08:04.626Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T05:26:43.954Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T05:26:44.015Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T05:37:50.276Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T05:37:50.329Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T05:39:26.829Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T05:39:26.898Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T05:40:30.380Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T05:40:30.433Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T05:43:54.902Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T05:43:54.955Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T05:53:34.878Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T05:53:34.910Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T06:06:26.235Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T06:06:26.277Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T06:07:29.316Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T06:07:29.392Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T06:12:28.595Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T06:12:28.639Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T06:18:28.846Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T06:18:28.878Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T06:26:55.094Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T06:26:55.135Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T06:27:42.094Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T06:27:42.136Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T06:33:14.819Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T06:33:14.850Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T06:33:29.222Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T06:33:29.256Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T06:53:45.308Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T06:53:45.341Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T07:17:50.825Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T07:17:50.858Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T07:21:32.683Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T07:21:32.715Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T07:23:45.417Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T07:23:45.449Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T07:31:21.082Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T07:31:21.113Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T07:41:45.852Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T07:41:45.893Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T07:41:54.298Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T07:41:54.328Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T07:46:57.664Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T07:46:57.692Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T07:48:04.989Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T07:48:05.035Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T07:48:44.498Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T07:48:44.534Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T07:50:25.675Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T07:50:25.707Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T07:58:17.054Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T07:58:17.091Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T08:27:19.038Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T08:27:19.075Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T08:31:36.043Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T08:31:36.078Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T08:38:01.582Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T08:38:01.613Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T08:43:31.832Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T08:43:31.865Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T08:45:47.683Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T08:45:47.715Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T08:51:58.464Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T08:51:58.495Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T08:52:28.302Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T08:52:28.330Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T08:52:46.753Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T08:52:46.784Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T09:00:59.882Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T09:00:59.914Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T09:09:34.544Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T09:09:34.584Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T09:12:59.429Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T09:12:59.466Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-05T09:18:19.240Z"}
+info: Connected to the database. {"timestamp":"2023-09-05T09:18:19.273Z"}

@@ -13,6 +13,7 @@ export const newNoteValidator = (req, res, next) => {
       message: `${error}`
     });
   } else {
+    console.log(req.body)
     next();
   }
 };

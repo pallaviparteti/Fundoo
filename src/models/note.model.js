@@ -8,6 +8,9 @@ const noteSchema = new Schema(
     description: {
       type: String
     },
+  colour :{
+    type:String,
+  },
     archive: {
       type: Boolean,
       default: false
@@ -15,7 +18,10 @@ const noteSchema = new Schema(
     trash: {
       type: Boolean,
       default: false
-    }
+    },
+    created_by:{
+      type:String
+   }
   },
   {
     timestamps: true

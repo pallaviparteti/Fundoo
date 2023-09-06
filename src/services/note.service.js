@@ -1,41 +1,58 @@
+import { note } from '@hapi/joi/lib/base';
 import Note from '../models/note.model';
 
 // create new note.
 export const createNote = async (body) => {
   const data = await Note.create(body);
+
   return data;
 };
 
 // Get all Notes
 export const getAllNotes = async (body) => {
-  const data = await Note.find({ _id: body._id });
+  const data = await Note.find({ created_by: body.created_by});
   return data;
 };
 //delete the notes
-export const deleteNote = async (_id) => {
-  await Note.findByIdAndDelete({ _id: _id });
-
-  return '';
+export const deleteNote = async (_id,body) => {
+  
+  const allNotes = await Note.find({created_by: body.created_by})
+  const checkNote = allNotes.filter((note)=>{
+    return note._id == _id
+  })
+  if(checkNote.length == 0){
+    throw new Error('note does not exists for this user');
+  }else{
+    await Note.deleteOne({ _id: {$eq:_id }});
+  
+    return '';
+  }
 };
 
 // Get note by id
-export const getNoteById = async (_id) => {
-  const data = await Note.findById({ _id: _id });
+export const getNoteById = async (_id,created_by ) => {
+  
+  const data = await Note.findById({ _id: _id,created_by:created_by })
   return data;
 };
 
 // update note by id
 export const updateNoteById = async (id, body) => {
-  const data = await Note.findByIdAndUpdate(
-    {
-      _id: id
-    },
+   const getNotes = await getAllNotes(body);
+   const checkNote = getNotes.filter((note)=> note._id == id);
+   console.log(checkNote);
+   if(checkNote.length == 0){
+    throw new Error("no note available for this user")
+   }
+   else{
+  const data = await Note.updateOne(
     body,
     {
       new: true
     }
   );
   return data;
+}
 };
 
 export const noteArchive = async (id) => {

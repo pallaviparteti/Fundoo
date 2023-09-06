@@ -9,7 +9,7 @@ export const newUserValidator = (req, res, next) => {
       .email({ minDomainSegments: 2, tlds: { allow: ['com', 'net'] } })
       .min(3)
       .required(),
-    password: Joi.string()
+    password: Joi.string().min(3).max(15)
       .required(),
     city: Joi.string().min(3).optional()
   });
