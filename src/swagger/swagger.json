@@ -6,7 +6,7 @@
           "description": "FUNDOO NOTES, project contain all apis for the users to resister login and Note crud api"
         },
         "host": "localhost:3101",
-        "basePath": "/api-doc/v1/",
+        "basePath": "/api/v1/",
         "tags": [
           {
             "name": "API's for User and Notes Using express CLI",
@@ -41,7 +41,33 @@
                 }
               }
             }
-          }
+        },
+        "/users/login":{
+            "post":{
+                "tags": ["User"],
+                "description": "Authenticate the user using login credentials",
+                "parameters": [
+                  {
+                    "name": "User Login",
+                    "in": "body",
+                    "description": "User will login successfully",
+                    "schema": {
+                      "$ref": "#/definitions/Login"
+                    }
+                  }
+                ],
+                "produces": ["application/json"],
+                "responses": {
+                  "200": {
+                    "description": "user logged in successfully"
+                  },
+                  "400": {
+                    "description": "Invalid Credentials"
+                  }
+                }
+            }
+        }
+      
         },
         "definitions": {
             "User": {
@@ -63,6 +89,17 @@
                     "type" : "string"
                 }
               }
+            },
+            "Login":{
+                "type" :"object",
+                "properties":{
+                    "email" :{
+                        "type":"string"
+                    },
+                    "password":{
+                        "type":"string"
+                    }
+                }
             }
         }
     }

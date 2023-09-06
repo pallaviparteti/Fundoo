@@ -66,7 +66,7 @@ export const login = async (body) => {
       };
     } else {
       data = {
-        code: HttpStatus.OK,
+        code: HttpStatus.BAD_REQUEST,
         data: '',
         message: 'password mismatched'
       };
