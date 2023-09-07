@@ -7,7 +7,7 @@ import HttpStatus from 'http-status-codes';
  * @param {object} res - response object
  * @param {Function} next
  */
-export const newUser = async (req, res) => {
+export const newUser = async (req, res, next) => {
   try {
     const data = await UserService.newUser(req.body);
     res.status(data.code).json({
@@ -15,11 +15,14 @@ export const newUser = async (req, res) => {
       data: data.data,
       message: data.message
     });
+
   } catch (error) {
-    res
-      .status(HttpStatus.BAD_REQUEST)
-      .json({ code: HttpStatus.BAD_REQUEST, message: `${error}` });
-  }
+    res.status(HttpStatus.BAD_REQUEST,).json
+      ({ code : HttpStatus.BAD_REQUEST,
+        message:`${error}`
+  });
+    }
+  
 };
 
 export const login = async (req, res) => {
@@ -71,4 +74,5 @@ export const resetPassword = async (req, res) => {
       message: `${error}`
     });
   }
-};
+ 
+
