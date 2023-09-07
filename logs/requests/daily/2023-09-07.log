@@ -110,3 +110,215 @@ info: ::ffff:127.0.0.1 - - [07/Sep/2023:06:51:52 +0000] "GET /api-docs/swagger-u
 
 info: ::ffff:127.0.0.1 - - [07/Sep/2023:06:51:52 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
 
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:18:18 +0000] "GET /api-docs/ HTTP/1.1" 200 3106 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:18:18 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:18:18 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 151211 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:18:18 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 5773 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:18:18 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:18:18 +0000] "GET /api-docs/favicon-16x16.png HTTP/1.1" - - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:32:32 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:32:32 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:32:32 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 6466 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:32:32 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:32:32 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:51:56 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:51:56 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:51:56 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:51:56 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:51:56 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:51:56 +0000] "GET /api-docs/favicon-16x16.png HTTP/1.1" - - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:52:27 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:52:27 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:52:27 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 6354 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:52:27 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:52:27 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:53:40 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:53:40 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:53:40 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:53:40 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:53:40 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:53:40 +0000] "GET /api-docs/favicon-16x16.png HTTP/1.1" - - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:54:13 +0000] "GET /api-docs/ HTTP/1.1" 200 3106 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:54:13 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:54:13 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:54:13 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 6357 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:54:13 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:54:14 +0000] "GET /api-docs/favicon-16x16.png HTTP/1.1" - - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:56:51 +0000] "GET /api-docs/ HTTP/1.1" 200 3106 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:56:51 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:56:51 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:56:51 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 6322 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:56:51 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:57:31 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:57:31 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:57:31 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 6358 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:57:31 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:57:31 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:57:31 +0000] "GET /api-docs/favicon-16x16.png HTTP/1.1" - - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:58:21 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:58:21 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:58:21 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:58:21 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 6357 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:58:21 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:58:21 +0000] "GET /api-docs/favicon-16x16.png HTTP/1.1" 200 665 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:59:14 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:59:14 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:59:14 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:59:14 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 6333 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:07:59:14 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:08:01:33 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:08:01:33 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:08:01:33 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:08:01:33 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 6340 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:08:01:33 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:08:01:33 +0000] "GET /api-docs/favicon-16x16.png HTTP/1.1" 200 665 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:08:34:11 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:08:34:11 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:08:34:11 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:08:34:11 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 7426 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:08:34:11 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:08:34:12 +0000] "GET /api-docs/favicon-16x16.png HTTP/1.1" - - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:24:00 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:24:00 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:24:00 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:24:00 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:24:00 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 8298 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:27:26 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:27:26 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:27:26 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:27:26 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:27:26 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:28:14 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:28:14 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:28:14 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:28:14 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 8299 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:28:14 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:43:02 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:43:02 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:43:02 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 8645 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:43:02 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:43:02 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:43:03 +0000] "GET /api-docs/favicon-16x16.png HTTP/1.1" - - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:45:17 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:45:17 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:45:17 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:45:17 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:09:45:17 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:10:04:12 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:10:04:12 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:10:04:12 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:10:04:12 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:10:04:12 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 9099 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:10:04:12 +0000] "GET /api-docs/favicon-16x16.png HTTP/1.1" 200 665 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:10:11:08 +0000] "GET /api-docs/ HTTP/1.1" 200 3106 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:10:11:09 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 9202 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:10:11:09 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:10:11:09 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 151211 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:10:11:09 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+
+info: ::ffff:127.0.0.1 - - [07/Sep/2023:10:11:09 +0000] "GET /api-docs/favicon-16x16.png HTTP/1.1" 200 665 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+

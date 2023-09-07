@@ -75,7 +75,7 @@
           {
             "name": "Forget Password",
             "in": "body",
-            "desciption": "Registered user cn forget password using registered mail",
+            "desciption": "Registered user can forget password using registered mail",
             "required": "false",
             "schema": {
               "$ref": "#/definitions/ForgetPassword"
@@ -91,6 +91,134 @@
             "description": "user not found"
           }
         }
+      }
+    },
+    "/users/resetPassword": {
+      "post": {
+        "tags": ["User"],
+        "description": "reset password for the registerd user",
+        "parameters": [
+          {
+            "name": "Reset Password",
+            "in": "body",
+            "required": "true",
+            "desciption": "Registered user can reset password using registered mail",
+            "schema": {
+              "$ref": "#/definitions/ResetPassword"
+            }
+          }
+        ],
+        "produces": [],
+        "responses": {
+          "200": {
+            "description": "Password has been changed successfully"
+          },
+          "400": {
+            "description": "Invalid User"
+          }
+        },
+        "security": [
+          {
+            "BearerAuth": {
+              "$ref": "#/securityDefinitions"
+            }
+          }
+        ]
+      }
+    },
+    "/notes": {
+      "post": {
+        "tags": ["Notes"],
+        "description": "Create a note for the user",
+        "parameters": [
+          {
+            "name": "Create Note For User",
+            "in": "body",
+            "required": "true",
+            "description": "Authorized user can create notes",
+            "schema": {
+              "$ref": "#/definitions/CreateNote"
+            }
+          }
+        ],
+        "produces": [],
+        "responses": {
+          "201": {
+            "description": "Note created successfully"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "BearerAuth": {
+              "$ref": "#/securityDefinitions"
+            }
+          }
+        ]
+      },
+      "get": {
+        "tags": ["Notes"],
+        "description": "Gell all notes for the valid user",
+        "parameters": [
+          {
+            "name": "GetAll NoteS For User",
+            "in": "path",
+            "required": "true",
+            "description": "Authorized user can get all notes for the specific user"
+          }
+        ],
+        "produces": [],
+        "responses": {
+          "200": {
+            "description": "Note fetched successfully"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "BearerAuth": {
+              "$ref": "#/securityDefinitions"
+            }
+          }
+        ]
+      }
+    },
+    "notes/{_id}": {
+      "delete": {
+        "tags": ["Notes"],
+        "description": "Delete Note by Id ",
+        "parameters": [
+          {
+            "name": "Delete note",
+            "in": "path",
+            "required": true,
+            "description": "Delete Note by Id ",
+            "type": "string"
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Note deleted Successfull"
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "BearerAuth": {
+              "$ref": "#/securityDefinitions"
+            }
+          }
+        ]
       }
     }
   },
@@ -133,6 +261,31 @@
           "type": "string"
         }
       }
+    },
+    "ResetPassword": {
+      "type": "object",
+      "properties": {
+        "password": {
+          "type": "string"
+        }
+      }
+    },
+    "CreateNote": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "securityDefinitions": {
+    "BearerAuth": {
+      "type": "apiKey",
+      "name": "Authorization"
     }
   }
 }
