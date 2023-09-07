@@ -1,105 +1,138 @@
 {
-        "swagger": "2.0",
-        "info": {
-          "version": "V1",
-          "title": "Node jS Project",
-          "description": "FUNDOO NOTES, project contain all apis for the users to resister login and Note crud api"
-        },
-        "host": "localhost:3101",
-        "basePath": "/api/v1/",
-        "tags": [
+  "swagger": "2.0",
+  "info": {
+    "version": "V1",
+    "title": "Node jS Project",
+    "description": "FUNDOO NOTES, project contain all apis for the users to resister login and Note crud api"
+  },
+  "host": "localhost:3101",
+  "basePath": "/api/v1/",
+  "tags": [
+    {
+      "name": "API's for User and Notes Using express CLI",
+      "description": "API for user registration"
+    }
+  ],
+  "schemes": ["http"],
+  "consumes": ["application/json"],
+  "produces": ["application/json"],
+  "paths": {
+    "/users": {
+      "post": {
+        "tags": ["User"],
+        "description": "Add new User to the Collection",
+        "parameters": [
           {
-            "name": "API's for User and Notes Using express CLI",
-            "description": "API for user registration"
+            "name": "Register new User",
+            "in": "body",
+            "description": "User will register",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
           }
         ],
-        "schemes": ["http"],
-        "consumes": ["application/json"],
         "produces": ["application/json"],
-        "paths": {
-          "/users": {
-            "post": {
-              "tags": ["User"],
-              "description": "Add new User to the Collection",
-              "parameters": [
-                {
-                  "name": "Register new User",
-                  "in": "body",
-                  "description": "User will register",
-                  "schema": {
-                    "$ref": "#/definitions/User"
-                  }
-                }
-              ],
-              "produces": ["application/json"],
-              "responses": {
-                "400": {
-                  "description": "user is already exist"
-                },
-                "201": {
-                  "description": "user registered successfully"
-                }
-              }
-            }
-        },
-        "/users/login":{
-            "post":{
-                "tags": ["User"],
-                "description": "Authenticate the user using login credentials",
-                "parameters": [
-                  {
-                    "name": "User Login",
-                    "in": "body",
-                    "description": "User will login successfully",
-                    "schema": {
-                      "$ref": "#/definitions/Login"
-                    }
-                  }
-                ],
-                "produces": ["application/json"],
-                "responses": {
-                  "200": {
-                    "description": "user logged in successfully"
-                  },
-                  "400": {
-                    "description": "Invalid Credentials"
-                  }
-                }
-            }
+        "responses": {
+          "400": {
+            "description": "user is already exist"
+          },
+          "201": {
+            "description": "user registered successfully"
+          }
         }
-      
-        },
-        "definitions": {
-            "User": {
-              "type": "object",
-              "properties": {
-                "firstName": {
-                  "type": "string"
-                },
-                "lastName": {
-                  "type": "string"
-                },
-                "email": {
-                  "type": "string"
-                },
-                "password": {
-                  "type": "string"
-                },
-                "city":{
-                    "type" : "string"
-                }
-              }
-            },
-            "Login":{
-                "type" :"object",
-                "properties":{
-                    "email" :{
-                        "type":"string"
-                    },
-                    "password":{
-                        "type":"string"
-                    }
-                }
+      }
+    },
+    "/users/login": {
+      "post": {
+        "tags": ["User"],
+        "description": "Authenticate the user using login credentials",
+        "parameters": [
+          {
+            "name": "User Login",
+            "in": "body",
+            "description": "User will login successfully",
+            "schema": {
+              "$ref": "#/definitions/Login"
             }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "user logged in successfully"
+          },
+          "400": {
+            "description": "Invalid Credentials"
+          }
         }
+      }
+    },
+    "/users/forgetPassword": {
+      "post": {
+        "tags": ["User"],
+        "description": "forget password for the registerd user",
+        "parameters": [
+          {
+            "name": "Forget Password",
+            "in": "body",
+            "desciption": "Registered user cn forget password using registered mail",
+            "required": "false",
+            "schema": {
+              "$ref": "#/definitions/ForgetPassword"
+            }
+          }
+        ],
+        "produces": [],
+        "responses": {
+          "200": {
+            "description": "Email has been send to registered user"
+          },
+          "404": {
+            "description": "user not found"
+          }
+        }
+      }
     }
+  },
+  "definitions": {
+    "User": {
+      "type": "object",
+      "properties": {
+        "firstName": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        }
+      }
+    },
+    "Login": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    },
+    "ForgetPassword": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1518,3 +1518,92 @@ info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-06T1
 info: Connected to the database. {"timestamp":"2023-09-06T10:02:04.011Z"}
 info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-06T10:05:57.025Z"}
 info: Connected to the database. {"timestamp":"2023-09-06T10:05:57.056Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-06T10:31:09.809Z"}
+info: Connected to the database. {"timestamp":"2023-09-06T10:31:09.837Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T05:58:03.386Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T05:58:03.418Z"}
+error: uncaughtException: /home/admin1/NodeProject/FundooNotes/src/swagger/swagger.json: Unexpected end of JSON input
+SyntaxError: /home/admin1/NodeProject/FundooNotes/src/swagger/swagger.json: Unexpected end of JSON input
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1169:22)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/src/index.js:24:25)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Object.newLoader [as .js] (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.runMain (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Thu Sep 07 2023 11:45:02 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0.8,0.7,0.99],"uptime":4358.9},"process":{"argv":["node","/home/admin1/NodeProject/FundooNotes/src/index.js"],"cwd":"/home/admin1/NodeProject/FundooNotes","execPath":"/usr/local/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19414174,"external":22793432,"heapTotal":84922368,"heapUsed":55795168,"rss":139055104},"pid":8698,"uid":1000,"version":"v16.14.0"},"stack":"SyntaxError: /home/admin1/NodeProject/FundooNotes/src/swagger/swagger.json: Unexpected end of JSON input\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1169:22)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/src/index.js:24:25)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)\n    at Object.newLoader [as .js] (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.runMain (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2023-09-07T06:15:02.657Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1169,"method":".json","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"/home/admin1/NodeProject/FundooNotes/src/index.js","function":null,"line":24,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":24,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1155,"method":".js","native":false},{"column":7,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":77,"method":"runMain","native":false},{"column":12,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1155,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: /home/admin1/NodeProject/FundooNotes/src/swagger/swagger.json: Unexpected end of JSON input
+SyntaxError: /home/admin1/NodeProject/FundooNotes/src/swagger/swagger.json: Unexpected end of JSON input
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1169:22)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/src/index.js:24:25)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Object.newLoader [as .js] (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.runMain (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Thu Sep 07 2023 11:53:00 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.08,0.96,0.99],"uptime":4836.71},"process":{"argv":["node","/home/admin1/NodeProject/FundooNotes/src/index.js"],"cwd":"/home/admin1/NodeProject/FundooNotes","execPath":"/usr/local/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19280665,"external":23720585,"heapTotal":85446656,"heapUsed":57955856,"rss":140124160},"pid":8941,"uid":1000,"version":"v16.14.0"},"stack":"SyntaxError: /home/admin1/NodeProject/FundooNotes/src/swagger/swagger.json: Unexpected end of JSON input\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1169:22)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/src/index.js:24:25)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)\n    at Object.newLoader [as .js] (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.runMain (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2023-09-07T06:23:00.473Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1169,"method":".json","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"/home/admin1/NodeProject/FundooNotes/src/index.js","function":null,"line":24,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":24,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1155,"method":".js","native":false},{"column":7,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":77,"method":"runMain","native":false},{"column":12,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1155,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T06:25:08.445Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T06:25:08.481Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T06:27:01.674Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T06:27:01.702Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token s in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (/home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/types/json.js:160:10)
+    at parse (/home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/types/json.js:83:15)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:231:16)
+    at done (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (node:events:532:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1346:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1users/forgetPassword 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-09-07T06:29:39.790Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T06:38:25.555Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T06:38:25.590Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T06:43:10.452Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T06:43:10.486Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T06:44:28.224Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T06:44:28.256Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T06:46:54.482Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T06:46:54.513Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T06:49:01.734Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T06:49:01.765Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T06:51:47.967Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T06:51:47.999Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T06:54:48.330Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T06:54:48.362Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T06:55:02.343Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T06:55:02.375Z"}
