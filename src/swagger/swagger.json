@@ -107,7 +107,8 @@
               "$ref": "#/definitions/ResetPassword"
             }
           }
-        ],"produces": [],
+        ],
+        "produces": [],
         "responses": {
           "200": {
             "description": "Password has been changed successfully"
@@ -124,8 +125,41 @@
           }
         ]
       }
+    },
+    "notes": {
+      "post": {
+        "tags": ["Notes"],
+        "description": "Create a note for the user",
+        "parameters": [
+          {
+            "name": "Create Note For User",
+            "in": "body",
+            "required": "true",
+            "description": "Authorized user can create notes",
+            "schema": {
+              "$ref": "#/definitions/CreateNote"
+            }
+          }
+        ],
+        "produces": [],
+        "responses": {
+          "201": {
+            "description": "Note created successfully"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "BearerAuth": {
+              "$ref": "#/securityDefinitions"
+            }
+          }
+        ]
+      }
     }
-  }, 
+  },
   "definitions": {
     "User": {
       "type": "object",
@@ -173,8 +207,19 @@
           "type": "string"
         }
       }
+    },
+    "CreateNote": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
     }
-  }, 
+  },
   "securityDefinitions": {
     "BearerAuth": {
       "type": "apiKey",
