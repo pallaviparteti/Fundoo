@@ -75,7 +75,7 @@
           {
             "name": "Forget Password",
             "in": "body",
-            "desciption": "Registered user cn forget password using registered mail",
+            "desciption": "Registered user can forget password using registered mail",
             "required": "false",
             "schema": {
               "$ref": "#/definitions/ForgetPassword"
@@ -92,8 +92,40 @@
           }
         }
       }
+    },
+    "/user/resetPassword": {
+      "post": {
+        "tags": ["User"],
+        "description": "reset password for the registerd user",
+        "parameters": [
+          {
+            "name": "Reset Password",
+            "in": "body",
+            "required": "true",
+            "desciption": "Registered user can reset password using registered mail",
+            "schema": {
+              "$ref": "#/definitions/ResetPassword"
+            }
+          }
+        ],"produces": [],
+        "responses": {
+          "200": {
+            "description": "Password has been changed successfully"
+          },
+          "400": {
+            "description": "Invalid User"
+          }
+        },
+        "security": [
+          {
+            "BearerAuth": {
+              "$ref": "#/securityDefinitions"
+            }
+          }
+        ]
+      }
     }
-  },
+  }, 
   "definitions": {
     "User": {
       "type": "object",
@@ -133,6 +165,20 @@
           "type": "string"
         }
       }
+    },
+    "ResetPassword": {
+      "type": "object",
+      "properties": {
+        "password": {
+          "type": "string"
+        }
+      }
+    }
+  }, 
+  "securityDefinitions": {
+    "BearerAuth": {
+      "type": "apiKey",
+      "name": "Authorization"
     }
   }
 }

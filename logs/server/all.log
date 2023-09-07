@@ -1,2 +1,60 @@
 info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T07:06:02.368Z"}
 info: Connected to the database. {"timestamp":"2023-09-07T07:06:02.398Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T07:17:59.810Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T07:17:59.838Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T07:18:14.632Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T07:18:14.666Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T07:22:22.577Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T07:22:22.605Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T07:22:41.758Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T07:22:41.787Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T07:22:45.027Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T07:22:45.056Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T07:22:53.496Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T07:22:53.524Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T07:27:39.580Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T07:27:39.612Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T07:30:06.997Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T07:30:07.030Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T07:31:02.557Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T07:31:02.585Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T07:31:49.527Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T07:31:49.556Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T07:52:25.662Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T07:52:25.693Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T07:53:31.515Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T07:53:31.543Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T07:54:07.543Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T07:54:07.572Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T07:56:45.722Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T07:56:45.751Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T07:57:24.045Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T07:57:24.074Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T07:58:15.720Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T07:58:15.752Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T07:59:09.098Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T07:59:09.128Z"}
+error: uncaughtException: /home/admin1/NodeProject/FundooNotes/src/swagger/swagger.json: Unexpected token } in JSON at position 3295
+SyntaxError: /home/admin1/NodeProject/FundooNotes/src/swagger/swagger.json: Unexpected token } in JSON at position 3295
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1169:22)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/src/index.js:24:25)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Object.newLoader [as .js] (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.runMain (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14) {"date":"Thu Sep 07 2023 13:30:45 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.38,1.42,1.22],"uptime":10701.78},"process":{"argv":["node","/home/admin1/NodeProject/FundooNotes/src/index.js"],"cwd":"/home/admin1/NodeProject/FundooNotes","execPath":"/usr/local/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19441761,"external":22383784,"heapTotal":84660224,"heapUsed":54163432,"rss":134774784},"pid":16079,"uid":1000,"version":"v16.14.0"},"stack":"SyntaxError: /home/admin1/NodeProject/FundooNotes/src/swagger/swagger.json: Unexpected token } in JSON at position 3295\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1169:22)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/src/index.js:24:25)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)\n    at Object.newLoader [as .js] (/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.runMain (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)","timestamp":"2023-09-07T08:00:45.534Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1169,"method":".json","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"/home/admin1/NodeProject/FundooNotes/src/index.js","function":null,"line":24,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":24,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1155,"method":".js","native":false},{"column":7,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":77,"method":"runMain","native":false},{"column":12,"file":"/home/admin1/NodeProject/FundooNotes/node_modules/@babel/node/src/_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false}]}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T08:01:09.483Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T08:01:09.516Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T08:01:29.546Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T08:01:29.581Z"}
+info: Server started at http://localhost:3101/api/v1/ {"timestamp":"2023-09-07T08:03:39.325Z"}
+info: Connected to the database. {"timestamp":"2023-09-07T08:03:39.359Z"}
