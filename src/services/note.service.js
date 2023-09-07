@@ -20,10 +20,9 @@ export const deleteNote = async (_id, body) => {
     return note._id == _id;
   });
   if (checkNote.length == 0) {
-    throw new Error('note does not exists for this user');
-  } else {
-    await Note.deleteOne({ _id: { $eq: _id } });
-
+    throw new Error('note does not exists for this user')
+  }else{
+    await Note.deleteOne({ _id: {$eq:_id }});
     return '';
   }
 };
