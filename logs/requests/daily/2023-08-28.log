@@ -1,0 +1,36 @@
+info: ::1 - - [28/Aug/2023:05:48:52 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [28/Aug/2023:05:49:42 +0000] "POST /api/v1/notes/trash/64e88a6aaee4745c1463dcd0 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [28/Aug/2023:05:49:57 +0000] "PUT /api/v1/notes/trash/64e88a6aaee4745c1463dcd0 HTTP/1.1" 200 274 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [28/Aug/2023:05:50:07 +0000] "PUT /api/v1/notes/trash/64e88a6aaee4745c1463dcd0 HTTP/1.1" 200 273 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [28/Aug/2023:05:50:14 +0000] "PUT /api/v1/notes/trash/64e88a6aaee4745c1463dcd0 HTTP/1.1" 200 274 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [28/Aug/2023:05:50:17 +0000] "PUT /api/v1/notes/trash/64e88a6aaee4745c1463dcd0 HTTP/1.1" 200 273 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [28/Aug/2023:05:51:13 +0000] "PUT /api/v1/notes/archive/64e88a6aaee4745c1463dcd0 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [28/Aug/2023:05:51:33 +0000] "PUT /api/v1/notes/archive/64e88a6aaee4745c1463dcd0 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [28/Aug/2023:05:52:25 +0000] "PUT /api/v1/notes/archive/64e88a6aaee4745c1463dcd0 HTTP/1.1" 200 275 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [28/Aug/2023:05:52:34 +0000] "PUT /api/v1/notes/archive/64e88a6aaee4745c1463dcd0 HTTP/1.1" 200 274 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [28/Aug/2023:05:52:37 +0000] "PUT /api/v1/notes/archive/64e88a6aaee4745c1463dcd0 HTTP/1.1" 200 275 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [28/Aug/2023:05:53:15 +0000] "PUT /api/v1/notes/archive/64e88a6aaee4745c1463dcd0 HTTP/1.1" 200 274 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [28/Aug/2023:09:28:01 +0000] "POST /api/v1/users HTTP/1.1" 400 66 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [28/Aug/2023:09:29:09 +0000] "POST /api/v1/users HTTP/1.1" 400 77 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [28/Aug/2023:09:29:36 +0000] "POST /api/v1/users HTTP/1.1" 201 342 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [28/Aug/2023:09:30:49 +0000] "POST /api/v1/users HTTP/1.1" 201 341 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [28/Aug/2023:09:33:00 +0000] "POST /api/v1/users HTTP/1.1" 201 353 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [28/Aug/2023:12:19:55 +0000] "POST /api/v1/users HTTP/1.1" 400 77 "-" "PostmanRuntime/7.32.3"
+

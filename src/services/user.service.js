@@ -1,5 +1,8 @@
+import dotenv from 'dotenv';
+dotenv.config();
 import User from '../models/user.model';
 import HttpStatus from 'http-status-codes';
+import sendMail from '../utils/user.util';
 const bcrypt = require('bcrypt');
 var jwt = require('jsonwebtoken');
 
@@ -7,7 +10,6 @@ var jwt = require('jsonwebtoken');
 export const newUser = async (body) => {
   const password = body.password;
   const saltRounds = 10;
-  
   var data;
   const isExist = await User.findOne({ email: body.email });
   if (isExist) {
@@ -44,18 +46,19 @@ export const login = async (body) => {
       body.password,
       emailValidation.password
     );
-
-    console.log(emailValidation);
     if (passwordMatch) {
-      const token = jwt.sign({emailValidation },process.env.SECRETE_KEY );
+      const token = await jwt.sign(
+        { _id: emailValidation._id, email: emailValidation.email },
+        process.env.SECRETE_KEY
+      );
       data = {
         code: HttpStatus.OK,
-        data:  token,
+        data: token,
         message: 'user login successfully'
       };
     } else {
       data = {
-        code: HttpStatus.OK,
+        code: HttpStatus.BAD_REQUEST,
         data: '',
         message: 'password mismatched'
       };
@@ -68,4 +71,43 @@ export const login = async (body) => {
     };
   }
   return data;
+};
+// forget password
+export const forgetPassword = async (body) => {
+  const findEmail = await User.findOne({ email: body.email });
+  if (findEmail) {
+    const token = jwt.sign(
+      { _id: findEmail.id, email: findEmail.email },
+      process.env.FORGET_PASSWORD_KEY
+    );
+    sendMail(findEmail.email, token);
+    var data = {
+      code: HttpStatus.OK,
+      data: '',
+      message: 'email has been send to the resisterd user'
+    };
+  } else {
+    throw new Error('Oops we cant find email');
+  }
+  return data;
+};
+
+export const resetPassword = async (body) => {
+  const saltRounds = 10;
+  const password = body.password;
+  var hashedPass = await bcrypt.hash(password, saltRounds);
+  body.password = hashedPass;
+  const dataValue = await User.findByIdAndUpdate({ _id: body._id }, body, {
+    new: true
+  });
+  var data = {
+    code: HttpStatus.OK,
+    data: dataValue,
+    message: 'password has been changed successfully'
+  };
+  if (!dataValue) {
+    throw new Error('Invalid user id. ');
+  } else {
+    return data;
+  }
 };

@@ -1,0 +1,294 @@
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T05:50:28.799Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T05:50:28.930Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T05:51:44.426Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T05:51:44.530Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-08-25T05:52:29.881Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T05:56:38.597Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T05:56:38.658Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at /home/admin1/NodeProject/FundooNotes/node_modules/jsonwebtoken/verify.js:133:19
+    at getSecret (/home/admin1/NodeProject/FundooNotes/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.verify (/home/admin1/NodeProject/FundooNotes/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee$ (/home/admin1/NodeProject/FundooNotes/src/middlewares/auth.middleware.js:22:32)
+    at tryCatch (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:128:22)
+    at Generator.next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at userAuth (/home/admin1/NodeProject/FundooNotes/src/middlewares/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/route.js:114:3) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-08-25T06:01:49.591Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T06:03:01.795Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T06:03:01.862Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at /home/admin1/NodeProject/FundooNotes/node_modules/jsonwebtoken/verify.js:133:19
+    at getSecret (/home/admin1/NodeProject/FundooNotes/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.verify (/home/admin1/NodeProject/FundooNotes/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee$ (/home/admin1/NodeProject/FundooNotes/src/middlewares/auth.middleware.js:23:32)
+    at tryCatch (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:128:22)
+    at Generator.next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at userAuth (/home/admin1/NodeProject/FundooNotes/src/middlewares/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/route.js:114:3) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-08-25T06:03:02.472Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T06:04:25.637Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T06:04:25.767Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at /home/admin1/NodeProject/FundooNotes/node_modules/jsonwebtoken/verify.js:133:19
+    at getSecret (/home/admin1/NodeProject/FundooNotes/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.verify (/home/admin1/NodeProject/FundooNotes/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee$ (/home/admin1/NodeProject/FundooNotes/src/middlewares/auth.middleware.js:23:32)
+    at tryCatch (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:128:22)
+    at Generator.next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at userAuth (/home/admin1/NodeProject/FundooNotes/src/middlewares/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/route.js:114:3) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-08-25T06:04:30.207Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T06:06:18.327Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T06:06:18.374Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Console is not defined
+    at _callee$ (/home/admin1/NodeProject/FundooNotes/src/middlewares/auth.middleware.js:22:1)
+    at tryCatch (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:128:22)
+    at Generator.next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at userAuth (/home/admin1/NodeProject/FundooNotes/src/middlewares/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/layer.js:95:5)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/index.js:346:12) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-08-25T06:06:28.643Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T06:06:53.313Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T06:06:53.374Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at /home/admin1/NodeProject/FundooNotes/node_modules/jsonwebtoken/verify.js:133:19
+    at getSecret (/home/admin1/NodeProject/FundooNotes/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.verify (/home/admin1/NodeProject/FundooNotes/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee$ (/home/admin1/NodeProject/FundooNotes/src/middlewares/auth.middleware.js:23:32)
+    at tryCatch (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:128:22)
+    at Generator.next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/home/admin1/NodeProject/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at userAuth (/home/admin1/NodeProject/FundooNotes/src/middlewares/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/admin1/NodeProject/FundooNotes/node_modules/express/lib/router/route.js:114:3) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-08-25T06:06:59.461Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T06:10:19.380Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T06:10:19.447Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T06:12:06.384Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T06:12:06.424Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T06:14:38.986Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T06:14:39.048Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T06:19:57.003Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T06:19:57.067Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T06:22:00.473Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T06:22:00.513Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T06:36:47.971Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T06:36:48.008Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T06:45:43.886Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T06:45:43.925Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T06:46:07.533Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T06:46:07.571Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T06:46:55.139Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T06:46:55.177Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T06:48:30.549Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T06:48:30.720Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T06:55:59.034Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T06:55:59.075Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T06:57:36.545Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T06:57:36.581Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T07:01:27.096Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T07:01:27.136Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T07:07:07.331Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T07:07:07.369Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T07:10:59.962Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T07:10:59.997Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T07:11:19.116Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T07:11:19.157Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T07:15:41.322Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T07:15:41.360Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T07:21:37.643Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T07:21:37.683Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 76
+    at JSON.parse (<anonymous>)
+    at parse (/home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/types/json.js:89:19)
+    at /home/admin1/NodeProject/FundooNotes/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:188:21)
+    at invokeCallback (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:231:16)
+    at done (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/home/admin1/NodeProject/FundooNotes/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (events.js:203:15)
+    at IncomingMessage.EventEmitter.emit (domain.js:448:20)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-08-25T07:30:07.011Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T07:44:57.477Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T07:44:57.515Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T07:49:28.449Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T07:49:28.488Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T08:03:25.304Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T08:03:25.343Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T08:08:03.367Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T08:08:03.409Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T08:09:30.386Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T08:09:30.427Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T08:09:40.016Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T08:09:40.055Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T08:11:13.294Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T08:11:13.349Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T08:13:06.060Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T08:13:06.106Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T08:15:47.723Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T08:15:47.763Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T08:41:32.637Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T08:41:32.676Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T08:45:38.844Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T08:45:38.882Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T08:45:56.628Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T08:45:56.670Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T08:48:10.209Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T08:48:10.259Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T08:48:46.720Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T08:48:46.757Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T08:49:46.113Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T08:49:46.157Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T08:50:09.915Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T08:50:09.953Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T08:50:43.448Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T08:50:43.486Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T08:51:22.622Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T08:51:22.661Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T08:52:00.595Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T08:52:00.633Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T08:52:58.991Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T08:52:59.028Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T08:54:50.606Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T08:54:50.643Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T08:55:10.990Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T08:55:11.028Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T08:58:50.204Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T08:58:50.244Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T09:03:43.004Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T09:03:43.056Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T09:08:18.807Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T09:08:18.845Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T09:08:33.654Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T09:08:33.709Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T10:12:26.708Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T10:12:26.766Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T10:16:03.771Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T10:16:03.809Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T10:22:54.558Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T10:22:54.609Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T10:23:36.178Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T10:23:36.240Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T10:26:34.522Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T10:26:34.560Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T10:27:42.863Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T10:27:42.914Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T10:57:38.583Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T10:57:38.622Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T11:00:54.499Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T11:00:54.543Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T11:06:54.691Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T11:06:54.821Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T11:07:32.726Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T11:07:32.786Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T11:10:04.570Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T11:10:04.650Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T11:10:58.853Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T11:10:58.918Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T11:11:19.446Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T11:11:19.514Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T11:12:06.547Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T11:12:06.623Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T11:12:39.603Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T11:12:39.667Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T11:14:07.283Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T11:14:07.342Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T11:14:22.928Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T11:14:23.074Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T11:14:42.435Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T11:14:42.522Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T11:15:20.466Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T11:15:20.567Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T11:23:23.442Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T11:23:23.488Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T11:27:48.898Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T11:27:48.936Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T11:37:05.759Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T11:37:05.877Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T11:45:30.128Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T11:45:30.336Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T11:48:57.590Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T11:48:57.663Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T12:01:16.507Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T12:01:16.543Z"}
+info: Server started at http://localhost:4010/api/v1/ {"timestamp":"2023-08-25T12:37:00.392Z"}
+info: Connected to the database. {"timestamp":"2023-08-25T12:37:00.445Z"}

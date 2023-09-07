@@ -3,7 +3,7 @@
   "parser": "babel-eslint",
   "extends": ["plugin:prettier/recommended"],
   "rules": {
-    "no-console": 0,
+    "no-console": "error",
     "no-unused-vars": "error",
     "quotes": [
       "error",
@@ -12,6 +12,7 @@
         "allowTemplateLiterals": true
       }
     ],
+    "linebreak-style": ["error"],
     "semi-style": ["error", "last"],
     "max-len": [
       "error",
