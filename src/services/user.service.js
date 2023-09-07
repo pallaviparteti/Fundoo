@@ -10,7 +10,6 @@ var jwt = require('jsonwebtoken');
 export const newUser = async (body) => {
   const password = body.password;
   const saltRounds = 10;
-
   var data;
   const isExist = await User.findOne({ email: body.email });
   if (isExist) {
@@ -25,21 +24,14 @@ export const newUser = async (body) => {
       ...body,
       password: hashedPassword
     };
-    var res = await User.create(newUserObj);
-    const { email, firstName, lastName, city } = res;
-    const userObject = {
-      firstName: firstName,
-      lastName: lastName,
-      city: city,
-      email: email
-    };
+  var res = await User.create(newUserObj);
     data = {
       code: HttpStatus.CREATED,
-      data: userObject,
+      data: res,
       message: 'user register successfully'
     };
   }
-  sendMail(body.email, 'you have successfully register to our apllication');
+
   return data;
 };
 
@@ -101,7 +93,6 @@ export const forgetPassword = async (body) => {
 };
 
 export const resetPassword = async (body) => {
-  console.log('body------------->', body);
   const saltRounds = 10;
   const password = body.password;
   var hashedPass = await bcrypt.hash(password, saltRounds);
