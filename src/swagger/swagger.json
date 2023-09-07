@@ -93,7 +93,7 @@
         }
       }
     },
-    "/user/resetPassword": {
+    "/users/resetPassword": {
       "post": {
         "tags": ["User"],
         "description": "reset password for the registerd user",
@@ -126,7 +126,7 @@
         ]
       }
     },
-    "notes": {
+    "/notes": {
       "post": {
         "tags": ["Notes"],
         "description": "Create a note for the user",
@@ -145,6 +145,68 @@
         "responses": {
           "201": {
             "description": "Note created successfully"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "BearerAuth": {
+              "$ref": "#/securityDefinitions"
+            }
+          }
+        ]
+      },
+      "get": {
+        "tags": ["Notes"],
+        "description": "Gell all notes for the valid user",
+        "parameters": [
+          {
+            "name": "GetAll NoteS For User",
+            "in": "path",
+            "required": "true",
+            "description": "Authorized user can get all notes for the specific user"
+          }
+        ],
+        "produces": [],
+        "responses": {
+          "200": {
+            "description": "Note fetched successfully"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "BearerAuth": {
+              "$ref": "#/securityDefinitions"
+            }
+          }
+        ]
+      }
+    },
+    "notes/{_id}": {
+      "delete": {
+        "tags": ["Notes"],
+        "description": "Delete Note by Id ",
+        "parameters": [
+          {
+            "name": "Delete note",
+            "in": "path",
+            "required": true,
+            "description": "Delete Note by Id ",
+            "type": "string"
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Note deleted Successfull"
+          },
+          "400": {
+            "description": "Bad Request"
           },
           "500": {
             "description": "Internal server error"
