@@ -219,9 +219,113 @@
             }
           }
         ]
-      }
+      },
+      "put": {
+        "tags": ["Notes"],
+        "description": "Update Note by ID",
+        "parameters": [
+          {
+            "name": "Update Note",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "Update Note",
+            "in": "body",
+            "schema": {
+              "$ref": "#/definitions/CreateNote"
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Note updated Successfull"
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "BearerAuth": {
+              "$ref": "#/securityDefinitions"
+            }
+          }
+        ]
     }
-  },
+    },
+        "/notes{id}/archive/": {
+          "put": {
+            "tags": ["Notes"],
+            "description": "Archive and unArchive Notes by ID",
+            "parameters": [
+              {
+                "name": "id",
+                "in": "path",
+                "required": true,
+                "type": "string"
+              }
+            ],
+            "produces": ["application/json"],
+            "responses": {
+              "200": {
+                "description": "Note archived or unarchived Successfully"
+              },
+              "400": {
+                "description": "Bad Request"
+              },
+              "500": {
+                "description": "Internal server error"
+              }
+            },
+            "security": [
+              {
+                "BearerAuth": {
+                  "$ref": "#/securityDefinitions"
+                }
+              }
+            ]
+          }
+        },
+        "/notes{id}/trash": {
+          "put": {
+            "tags": ["Notes"],
+            "description": "Trash a Note by ID...",
+            "parameters": [
+              {
+                "name": "Trash Notes",
+                "in": "path",
+                "required": true,
+                "type": "string"
+              }
+            ],
+            "produces": ["application/json"],
+            "responses": {
+              "200": {
+                "description": "Note trashed successfully"
+              },
+              "400": {
+                "description": "Bad Request"
+              },
+              "500": {
+                "description": "Internal server error"
+              }
+            },
+            "security": [
+              {
+                "BearerAuth": {
+                  "$ref": "#/securityDefinitions"
+                }
+              }
+            ]
+          }
+        }
+      },
   "definitions": {
     "User": {
       "type": "object",

@@ -11,21 +11,14 @@ import jwt from 'jsonwebtoken';
  */
 export const userAuth = async (req, res, next) => {
   try {
-    
+    console.log(req.header());
     let bearerToken = req.header('Authorization');
     if (!bearerToken) throw new Error('Authorization token is required');
-    //  {
-    //     // code: HttpStatus.BAD_REQUEST,
-    //     message: 'Authorization token is required'
-    //   };
-    bearerToken = bearerToken.split(' ')[1]; 
-
-    // console.log("brearerToken after spliting -----> ",bearerToken);
+    bearerToken = bearerToken.split(' ')[1];
     const user = await jwt.verify(bearerToken, process.env.SECRETE_KEY);
     req.body.created_by = user._id;
-  
     next();
-  } catch (error) {
+ } catch (error) {
     res.status(HttpStatus.BAD_REQUEST).json({
       code: HttpStatus.BAD_REQUEST,
       message: `${error}`
