@@ -49,7 +49,7 @@ export const login = async (body) => {
     if (passwordMatch) {
       const token = await jwt.sign(
         { _id: emailValidation._id, email: emailValidation.email },
-        process.env.SECRETE_KEY
+        process.env.SECRETE_KEY,{expiresIn:'300s'}
       );
       data = {
         code: HttpStatus.OK,
