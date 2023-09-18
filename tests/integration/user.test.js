@@ -26,13 +26,21 @@ describe('User APIs Test', () => {
     done();
   });
 
-  describe('GET /users', () => {
-    it('should return empty array', (done) => {
+  describe('POST /user registration', () => {
+    it('should able to create user when user data is given', (done) => {
+      const user = {
+        firstName: 'Aaptarish',
+        lastName: 'Prasad',
+        email: 'krishnaa@01gmail.net',
+        password: 'Harry@12345',
+        city: 'amravati'
+      };
       request(app)
-        .get('/api/v1/users')
+        .post('/api/v1/users')
+        .send(user)
         .end((err, res) => {
-          expect(res.statusCode).to.be.equal(200);
-          expect(res.body.data).to.be.an('array');
+          expect(res.statusCode).to.be.equal(201);
+          expect(res.body.data).to.be.an('object');
 
           done();
         });
