@@ -31,9 +31,8 @@ describe('User APIs Test', () => {
       const user = {
         firstName: 'Aaptarish',
         lastName: 'Prasad',
-        email: 'krishnaa@01gmail.net',
-        password: 'Harry@12345',
-        city: 'amravati'
+        email: 'krishnaa@gmail.com',
+        password: 'Harry@12345'
       };
       request(app)
         .post('/api/v1/users')
@@ -59,7 +58,21 @@ describe('User APIs Test', () => {
         .send(user)
         .end((err, res) => {
           expect(res.statusCode).to.be.equal(400);
-
+             done();
+        });
+    });
+  });
+  describe('POST/user login', () => {
+    it('sould not able to logged in when user entered invalid credentials', (done) => {
+      const user = {
+        email: 'pallavi@gmail.com',
+        password: 'pallavi@123'
+      };
+      request(app)
+        .post('/api/v1/users/login')
+        .send(user)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(400);
           done();
         });
     });
