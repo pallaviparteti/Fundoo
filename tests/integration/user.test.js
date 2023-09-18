@@ -50,7 +50,7 @@ describe('User APIs Test', () => {
         lastName: 'Prasad',
         email: 'krishnaa01gma.net',
         password: 'Harry@12345',
-        city: 'amravati'
+
       };
 
       request(app)
@@ -75,6 +75,19 @@ describe('User APIs Test', () => {
           expect(res.statusCode).to.be.equal(400);
           done();
         });
+    });
+    it('should able to logged in with valid credentials',(done)=>{
+      const user = {
+        email: 'krishnaa@gmail.com',
+        password: 'Harry@12345'
+      }
+      request(app)
+      .post('/api/v1/users/login')
+      .send(user)
+      .end((err,res)=>{
+        expect(res.statusCode).to.be.equal(200);
+        done();
+      })
     });
   });
 });
