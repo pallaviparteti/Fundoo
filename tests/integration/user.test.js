@@ -45,5 +45,23 @@ describe('User APIs Test', () => {
           done();
         });
     });
+    it('should not able to register when user entered invalid data', (done) => {
+      const user = {
+        firstName: 'Aaptarish',
+        lastName: 'Prasad',
+        email: 'krishnaa01gma.net',
+        password: 'Harry@12345',
+        city: 'amravati'
+      };
+
+      request(app)
+        .post('/api/v1/users')
+        .send(user)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(400);
+
+          done();
+        });
+    });
   });
 });
