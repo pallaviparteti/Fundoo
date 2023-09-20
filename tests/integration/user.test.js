@@ -112,5 +112,21 @@ describe('User APIs Test', () => {
         });
       done();
     });
+    it('should not create a note with an empty title', (done) => {
+      const data = {
+        title: '',
+        description:
+          'somewhat cloudy and rainy as well,but her is lot much humidity'
+      };
+
+      request(app)
+        .post('/api/v1/notes')
+        .set('Authorization', `Bearer ${token}`)
+        .send(data)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(400);
+          done();
+        });
+    });
   });
 });
