@@ -3,6 +3,7 @@ import request from 'supertest';
 import mongoose from 'mongoose';
 
 import app from '../../src/index';
+import { object } from '@hapi/joi';
 
 describe('User APIs Test', () => {
   before((done) => {
@@ -89,5 +90,21 @@ describe('User APIs Test', () => {
         done();
       })
     });
+    it('should not able to login with invalid credentials',(done)=>{
+      const user = {
+        email : '',
+        password: ''
+        
+      }
+      request(app).post('/api/v1/users/login')
+      .send(user)
+      .end((err,res) =>{
+        expect(res.statusCode).to.be.equal(400);
+        done();
+      })
+      
+    })
   });
-});
+
+  })
+ 
