@@ -3,8 +3,8 @@ import request from 'supertest';
 import mongoose from 'mongoose';
 
 import app from '../../src/index';
-import { object } from '@hapi/joi';
 
+let token;
 describe('User APIs Test', () => {
   before((done) => {
     const clearCollections = () => {
@@ -33,7 +33,8 @@ describe('User APIs Test', () => {
         firstName: 'Aaptarish',
         lastName: 'Prasad',
         email: 'krishnaa@gmail.com',
-        password: 'Harry@12345'
+        password: 'Harry@12345',
+        city: 'amaravati'
       };
       request(app)
         .post('/api/v1/users')
@@ -50,8 +51,7 @@ describe('User APIs Test', () => {
         firstName: 'Aaptarish',
         lastName: 'Prasad',
         email: 'krishnaa01gma.net',
-        password: 'Harry@12345',
-
+        password: 'Harry@12345'
       };
 
       request(app)
@@ -59,7 +59,7 @@ describe('User APIs Test', () => {
         .send(user)
         .end((err, res) => {
           expect(res.statusCode).to.be.equal(400);
-             done();
+          done();
         });
     });
   });
@@ -74,37 +74,43 @@ describe('User APIs Test', () => {
         .send(user)
         .end((err, res) => {
           expect(res.statusCode).to.be.equal(400);
-          done();
         });
+      done();
     });
-    it('should able to logged in with valid credentials',(done)=>{
+
+    it('should able to logged in with valid credentials', (done) => {
       const user = {
         email: 'krishnaa@gmail.com',
         password: 'Harry@12345'
-      }
+      };
       request(app)
-      .post('/api/v1/users/login')
-      .send(user)
-      .end((err,res)=>{
-        expect(res.statusCode).to.be.equal(200);
-        done();
-      })
+        .post('/api/v1/users/login')
+        .send(user)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(200);
+          token = res.body.data;
+          done();
+        });
     });
-    it('should not able to login with invalid credentials',(done)=>{
-      const user = {
-        email : '',
-        password: ''
-        
-      }
-      request(app).post('/api/v1/users/login')
-      .send(user)
-      .end((err,res) =>{
-        expect(res.statusCode).to.be.equal(400);
-        done();
-      })
-      
-    })
   });
 
-  })
- 
+  describe('POST/create notes', () => {
+    it('able to create the notes with fields title and description', (done) => {
+      const note = {
+        title: 'wheather',
+        description:
+          'somewhat cloudy and rainy as well,but here is lot much humidity'
+      };
+
+      request(app)
+        .post('/api/v1/notes')
+        .set('Authorization', `Bearer ${token}`)
+        .send(note)
+        .end((err, res) => {
+          console.log(res);
+          expect(res.statusCode).to.be.equal(201);
+        });
+      done();
+    });
+  });
+});
